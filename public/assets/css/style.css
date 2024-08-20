@@ -14328,7 +14328,9 @@ xclip
 }
 .header-one-wrapper .left-side-header .logo-area {
   padding: 20px 0;
+  width: 40%;
   display: block;
+  
 }
 .header-one-wrapper .left-side-header .category-area {
   cursor: pointer;

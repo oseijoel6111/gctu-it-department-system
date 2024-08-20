@@ -8,6 +8,8 @@ use Illuminate\Support\Facades\Route;
 Route::controller(FrontendController::class)->group(function () {
 
     Route::get('/', 'index');
+    Route::get('/login', 'login')->name('login');
+    Route::get('/signin', 'signin');
 });
 
 Route::controller(AdminController::class)->prefix('admin')->group(function () {

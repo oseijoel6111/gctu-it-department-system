@@ -26,7 +26,7 @@
                     <div class="footer-singl-wized left-logo">
                         <div class="head">
                             <a href="#">
-                                <img src="{{ asset('assets/images/logo-1.svg') }}" alt="logo" loading="lazy">
+                                <img src="{{ asset('assets/images/gctu.png') }}" alt="logo" loading="lazy">
                             </a>
                         </div>
                         <div class="body">
@@ -104,8 +104,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="copyright-area-one">
-                        <p>Copyright © 2024 All Rights Reserved by Studyhub</p>
-                        <div class="social-copyright">
+                        <!-- <p>Copyright © 2024 All Rights Reserved by GCTU</p> -->
+                        <!-- <div class="social-copyright">
                             <ul>
                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
@@ -113,7 +113,7 @@
                                 <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
