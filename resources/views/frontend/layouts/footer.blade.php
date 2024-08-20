@@ -26,7 +26,7 @@
                     <div class="footer-singl-wized left-logo">
                         <div class="head">
                             <a href="#">
-                                <img src="{{ asset('assets/images/logo-1.svg') }}" alt="logo" loading="lazy">
+                                <img src="{{ asset('assets/images/gctu.png') }}" alt="logo" loading="lazy">
                             </a>
                         </div>
                         <div class="body">
