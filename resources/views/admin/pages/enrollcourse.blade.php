@@ -38,22 +38,22 @@
                             </a>
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="student-quiz-attempts.html" class="single-item ">
+                            <!-- <a href="student-quiz-attempts.html" class="single-item ">
                                 <i class="fa-sharp fa-light fa-bullseye-pointer"></i>
                                 <p>My Quiz Attempts</p>
-                            </a>
+                            </a> -->
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="student-order-history.html" class="single-item ">
+                            <!-- <a href="student-order-history.html" class="single-item ">
                                 <i class="fa-sharp fa-light fa-bag-shopping"></i>
                                 <p>Order History</p>
-                            </a>
+                            </a> -->
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="student-question-answer.html" class="single-item ">
+                            <!-- <a href="student-question-answer.html" class="single-item ">
                                 <i class="fa-regular fa-circle-question"></i>
                                 <p>Question &amp; Answer</p>
-                            </a>
+                            </a> -->
                             <!-- single item end -->
                             <!-- single item -->
                             <a href="{{route('admin.calender')}}" class="single-item ">
