@@ -283,7 +283,7 @@
                                                 <li><a href="instructor.html">Instructor</a></li>
                                                 <li><a href="pricing.html">Membership Plan</a></li>
                                                 <li><a href="{{route('login')}}">Log In</a></li>
-                                                <li><a href="registration.html">Registration</a></li>
+                                                <li><a href="{{route('signup')}}">Registration</a></li>
                                             </ul>
                                             <div class="thumbnav-area">
                                                 <!-- single thumbnav -->
@@ -383,7 +383,7 @@
                         </div>
                         <div class="buttons-area">
                             <a href="{{route('login')}}" class="rts-btn btn-border">Log In</a>
-                            <a href="registration.html" class="rts-btn btn-primary">Sign Up</a>
+                            <a href="{{route('signup')}}" class="rts-btn btn-primary">Sign Up</a>
                         </div>
                         <div class="menu-btn" id="menu-btn">
                             <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
