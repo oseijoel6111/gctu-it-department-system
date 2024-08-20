@@ -14,7 +14,7 @@
                         </a>
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="my-profile.html" class="single-item">
+                        <a href="{{route('admin.profile')}}" class="single-item">
                             <i class="fa-regular fa-user"></i>
                             <p>My Profile</p>
                         </a>

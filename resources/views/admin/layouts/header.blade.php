@@ -138,7 +138,7 @@
                                         <ul class="submenu">
                                             <li><a href="about.html">About Us</a></li>
                                             <li><a href="about-two.html">About Two</a></li>
-                                            <li><a href="instructor-profile.html">Profile</a></li>
+                                            <li><a href="instructor">Profile</a></li>
                                             <li><a href="contact.html">Contact</a></li>
                                             <li class="sub-dropdown">
                                                 <a href="javascript:void(0);">Zoom</a>
@@ -234,7 +234,7 @@
                                                 <a class="submenu-link" href="javascript:void(0);">Instructor Dashboard</a>
                                                 <ul class="submenu third-lvl base">
                                                     <li><a class="mobile-menu-link" href="dashboard.html">Dashboard</a></li>
-                                                    <li><a class="mobile-menu-link" href="my-profile.html">My Profile</a></li>
+                                                    <li><a class="mobile-menu-link" href="{{route('admin.profile')}}">My Profile</a></li>
                                                     <li><a class="mobile-menu-link" href="enroll-course.html">Enroll Course</a></li>
                                                     <li><a class="mobile-menu-link" href="wishlist.html">Wishlist</a></li>
                                                     <li><a class="mobile-menu-link" href="reviews.html">Reviews</a></li>

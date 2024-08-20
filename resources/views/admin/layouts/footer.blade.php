@@ -231,7 +231,7 @@
                             <a class="main" href="#">Instructor Dashboard</a>
                             <ul class="submenu-third-lvl mm-collapse">
                                 <li><a href="dashboard.html"></a>Dashboard</li>
-                                <li><a href="my-profile.html"></a>My Profile</li>
+                                <li><a href="{{route('admin.profile')}}"></a>My Profile</li>
                                 <li><a href="enroll-course.html"></a>Enroll Course</li>
                                 <li><a href="wishlist.html"></a>Wishlist</li>
                                 <li><a href="reviews.html"></a>Reviews</li>
