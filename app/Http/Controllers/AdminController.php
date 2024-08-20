@@ -13,4 +13,21 @@ class AdminController extends Controller
     public function profile(){
         return view('admin.pages.profile');
     }
+    public function course(){
+        return view('admin.pages.enrollcourse');
+    }
+    public function review(){
+        return view('admin.pages.review');
+    }
+
+    public function assignment(){
+        return view('admin.pages.assignment');
+    }
+    public function announcement(){
+        return view('admin.pages.announcement');
+    }
+    
+    public function calender(){
+        return view('admin.pages.calender');
+    }
 }

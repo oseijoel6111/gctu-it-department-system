@@ -21,43 +21,43 @@
                         </a>
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="enroll-course.html" class="single-item">
+                        <a href="{{route('admin.enrollcourse')}}" class="single-item">
                             <i class="fa-light fa-graduation-cap"></i>
                             <p>Enrolled Courses</p>
                         </a>
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="wishlist.html" class="single-item">
+                        <!-- <a href="wishlist.html" class="single-item">
                             <i class="fa-sharp fa-light fa-bookmark"></i>
                             <p>Wishlist</p>
-                        </a>
+                        </a> -->
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="reviews.html" class="single-item">
+                        <a href="{{route('admin.review')}}" class="single-item">
                             <i class="fa-regular fa-star"></i>
                             <p>Reviews</p>
                         </a>
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="quiz-attempts.html" class="single-item">
+                        <!-- <a href="quiz-attempts.html" class="single-item">
                             <i class="fa-sharp fa-light fa-bullseye-pointer"></i>
                             <p>My Quiz Attempts</p>
-                        </a>
+                        </a> -->
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="order-history.html" class="single-item">
+                        <!-- <a href="order-history.html" class="single-item">
                             <i class="fa-sharp fa-light fa-bag-shopping"></i>
                             <p>Order History</p>
-                        </a>
+                        </a> -->
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="question-answer.html" class="single-item">
+                        <!-- <a href="question-answer.html" class="single-item">
                             <i class="fa-regular fa-circle-question"></i>
                             <p>Question &amp; Answer</p>
-                        </a>
+                        </a> -->
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="calender.html" class="single-item">
+                        <a href="{{route('admin.calender')}}" class="single-item">
                             <i class="fa-light fa-calendar-days"></i>
                             <p>Calendar</p>
                         </a>
@@ -66,40 +66,40 @@
                     <div class="dashboard-left-single-wrapper mt--40">
                         <h4 class="title mb--5">Instructor</h4>
                         <!-- single item -->
-                        <a href="my-course.html" class="single-item">
+                        <!-- <a href="my-course.html" class="single-item">
                             <i class="fa-light fa-book"></i>
                             <p>My Courses</p>
-                        </a>
+                        </a> -->
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="my-bundles.html" class="single-item">
+                        <!-- <a href="my-bundles.html" class="single-item">
                             <i class="fa-sharp fa-regular fa-layer-group"></i>
                             <p>My Bundles</p>
-                        </a>
+                        </a> -->
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="announcement.html" class="single-item">
+                        <a href="{{route('admin.announcement')}}" class="single-item">
                             <i class="fa-solid fa-megaphone"></i>
                             <p>Announcements</p>
                         </a>
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="withdrowals.html" class="single-item">
+                        <!-- <a href="withdrowals.html" class="single-item">
                             <i class="fa-regular fa-box"></i>
                             <p>Withdrawals</p>
-                        </a>
+                        </a> -->
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="assignments.html" class="single-item">
+                        <a href="{{route('admin.review')}}" class="single-item">
                             <i class="fa-regular fa-page"></i>
                             <p>Assignments</p>
                         </a>
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="certificate.html" class="single-item">
+                        <!-- <a href="certificate.html" class="single-item">
                             <i class="fa-sharp fa-light fa-file-certificate"></i>
                             <p>Certificate</p>
-                        </a>
+                        </a> -->
                         <!-- single item end -->
                     </div>
                     <div class="dashboard-left-single-wrapper bbnone mt--40">
