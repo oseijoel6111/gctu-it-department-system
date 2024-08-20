@@ -40,7 +40,7 @@
         <!-- inner menu area desktop start -->
         <div class="inner-main-wrapper-desk">
             <div class="thumbnail">
-                <img src="images/04.jpg" alt="elevate">
+                <img src="{{asset('/assets/images/04.jpg')}}" alt="elevate">
             </div>
             <div class="inner-content">
                 <h4 class="title">We Build Building and Great Constructive Homes.</h4>

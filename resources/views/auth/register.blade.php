@@ -30,8 +30,8 @@
                                 <input id="password" type="password" placeholder="Password" required="">
                             </div>
                             <div class="single-input-wrapper">
-                                <label for="passwords">Re Password</label>
-                                <input id="passwords" type="password" placeholder="Re Password" required="">
+                                <label for="passwords">Confirm Password</label>
+                                <input id="passwords" type="password" placeholder="Confirm Password" required="">
                             </div>
                         </div>
                         <div class="single-checkbox-filter">
@@ -47,7 +47,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="contact-thumbnail-login-p mt--100">
-                    <img src="images/login-bg.png" width="600" height="495" alt="login-form">
+                    <img src="{{asset('/assets/images/login-bg.png')}}" width="600" height="495" alt="login-form">
                 </div>
             </div>
         </div>

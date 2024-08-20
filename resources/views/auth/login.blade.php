@@ -28,10 +28,10 @@
 
                         <div class="google-apple-wrapper">
                             <div class="google">
-                                <img src="images/06_1.png" alt="contact">
+                                <img src="{{asset('/assets/images/06_1.png')}}" alt="contact">
                             </div>
                             <div class="google">
-                                <img src="images/07.png" alt="contact">
+                                <img src="{{asset('/assets/images/07.png')}}" alt="contact">
                             </div>
                         </div>
                         <p>Don't Have an account? <a href="{{route('signup')}}">Registration</a></p>
@@ -40,7 +40,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="contact-thumbnail-login-p mt--100">
-                    <img src="images/login-bg.png" width="600" height="495" alt="login-form">
+                    <img src="{{asset('/assets/images/login-bg.png')}}" width="600" height="495" alt="login-form">
                 </div>
             </div>
         </div>
