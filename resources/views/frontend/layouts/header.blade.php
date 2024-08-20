@@ -75,7 +75,7 @@
                 <div class="header-one-wrapper">
                     <div class="left-side-header">
                         <a href="index.html" class="logo-area">
-                            <img src="{{asset('/assets/images/logo-1.svg')}}" alt="logo">
+                            <img src="{{asset('/assets/images/gctu.png')}}"  alt="logo">
                         </a>
                         <div class="category-area">
                             <div class="category-btn">
