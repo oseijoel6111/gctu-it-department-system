@@ -11,5 +11,5 @@ Route::controller(FrontendController::class)->group(function () {
 });
 
 Route::controller(AdminController::class)->prefix('admin')->group(function () {
-    
+    Route::get('/', 'index');
 });
