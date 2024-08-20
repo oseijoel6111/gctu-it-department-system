@@ -21,7 +21,7 @@
                         </a>
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="enroll-course.html" class="single-item">
+                        <a href="{{route('admin.enrollcourse')}}" class="single-item">
                             <i class="fa-light fa-graduation-cap"></i>
                             <p>Enrolled Courses</p>
                         </a>
@@ -33,7 +33,7 @@
                         </a>
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="reviews.html" class="single-item">
+                        <a href="{{route('admin.review')}}" class="single-item">
                             <i class="fa-regular fa-star"></i>
                             <p>Reviews</p>
                         </a>
@@ -57,7 +57,7 @@
                         </a>
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="calender.html" class="single-item">
+                        <a href="{{route('admin.calender')}}" class="single-item">
                             <i class="fa-light fa-calendar-days"></i>
                             <p>Calendar</p>
                         </a>
@@ -78,7 +78,7 @@
                         </a>
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="announcement.html" class="single-item">
+                        <a href="{{route('admin.announcement')}}" class="single-item">
                             <i class="fa-solid fa-megaphone"></i>
                             <p>Announcements</p>
                         </a>
@@ -90,7 +90,7 @@
                         </a>
                         <!-- single item end -->
                         <!-- single item -->
-                        <a href="assignments.html" class="single-item">
+                        <a href="{{route('admin.review')}}" class="single-item">
                             <i class="fa-regular fa-page"></i>
                             <p>Assignments</p>
                         </a>
