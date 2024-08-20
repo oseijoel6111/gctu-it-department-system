@@ -12,26 +12,26 @@
                             <ul class="rts-dropdown-menu switcher-language">
                                 <li class="has-child-menu">
                                     <a href="#">
-                                        <img class="left-image" src="images/flag-01.svg" alt="Language Images">
+                                        <img class="left-image" src="/assets/images/flag-01.svg" alt="">
                                         <span class="menu-item">English</span>
                                         <i class="fa-regular fa-chevron-down"></i>
                                     </a>
                                     <ul class="sub-menu">
                                         <li>
                                             <a href="#">
-                                                <img class="left-image" src="images/flag-03.svg" alt="Language Images">
+                                                <img class="left-image" src="/assets/images/flag-03.svg" alt="">
                                                 <span class="menu-item">Deutsch</span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <img class="left-image" src="images/flag-02.svg" alt="Language Images">
+                                                <img class="left-image" src="/assets/images/flag-02.svg" alt="">
                                                 <span class="menu-item">Portuguese</span>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <img class="left-image" src="images/flag-04.svg" alt="Language Images">
+                                                <img class="left-image" src="/assets/images/flag-04.svg" alt="">
                                                 <span class="menu-item">Russian</span>
                                             </a>
                                         </li>
@@ -75,11 +75,11 @@
                 <div class="header-one-wrapper">
                     <div class="left-side-header">
                         <a href="index.html" class="logo-area">
-                            <img src="images/logo-1.svg" alt="logo">
+                            <img src="{{asset('/assets/images/logo-1.svg')}}" alt="logo">
                         </a>
                         <div class="category-area">
                             <div class="category-btn">
-                                <img src="images/grid.png" alt="grid">
+                                <img src="{{asset('/assets/images/grid.png')}}" alt="grid">
                                 <span>Category</span>
                                 <i class="fa-sharp fa-regular fa-chevron-down"></i>
                                 <ul class="category-sub-menu">
