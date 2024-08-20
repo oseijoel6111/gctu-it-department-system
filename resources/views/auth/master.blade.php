@@ -26,7 +26,7 @@
 
     <div class="header-transparent">
         <div class="container">
-           
+
         </div>
     </div>
 
@@ -97,8 +97,7 @@
         </div>
 
     </div>
-    <!-- header style two End -->
-
+    
     <!-- modal -->
     <div id="myModal-1" class="modal fade" role="dialog">
         <div class="modal-dialog bg_image">

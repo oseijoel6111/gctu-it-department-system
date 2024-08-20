@@ -282,7 +282,7 @@
                                                 <li><a href="instructor-profile.html">Instructor Profile</a></li>
                                                 <li><a href="instructor.html">Instructor</a></li>
                                                 <li><a href="pricing.html">Membership Plan</a></li>
-                                                <li><a href="log-in.html">Log In</a></li>
+                                                <li><a href="{{route('login')}}">Log In</a></li>
                                                 <li><a href="registration.html">Registration</a></li>
                                             </ul>
                                             <div class="thumbnav-area">
@@ -382,7 +382,7 @@
                             </div>
                         </div>
                         <div class="buttons-area">
-                            <a href="log-in.html" class="rts-btn btn-border">Log In</a>
+                            <a href="{{route('login')}}" class="rts-btn btn-border">Log In</a>
                             <a href="registration.html" class="rts-btn btn-primary">Sign Up</a>
                         </div>
                         <div class="menu-btn" id="menu-btn">
