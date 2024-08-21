@@ -34,4 +34,16 @@ class AdminController extends Controller
     public function student_index(){
         return view('admin.pages.student_index');
     }
+
+    public function student_course(){
+        return view('admin.pages.student_enrollcourse');
+    }
+
+    public function student_profile(){
+        return view('admin.pages.student_profile');
+    }
+
+    public function student_review(){
+        return view('admin.pages.student_review');
+    }
 }

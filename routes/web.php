@@ -22,4 +22,7 @@ Route::controller(AdminController::class)->prefix('admin')->group(function () {
     Route::get('/announcement', 'announcement')->name('admin.announcement');
     Route::get('/calender', 'calender')->name('admin.calender');
     Route::get('/student_index','student_index')->name('admin.student_index');
+    Route::get('/student_enrollcourse','student_course')->name('admin.student_course');
+    Route::get('/student_profile','student_profile')->name('admin.student_profile');
+    Route::get('/student_review','student_review')->name('admin.student_review');
 });

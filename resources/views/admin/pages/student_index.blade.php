@@ -8,19 +8,19 @@
                     <div class="left-sindebar-dashboard">
                         <div class="dashboard-left-single-wrapper">
                             <!-- single item -->
-                            <a href="student-dashboard.html" class="single-item active">
+                            <a href="{{route('admin.student_index')}}" class="single-item active">
                                 <i class="fa-light fa-house"></i>
                                 <p>Dashboard</p>
                             </a>
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="student-profile.html" class="single-item ">
+                            <a href="{{route('admin.student_profile')}}" class="single-item ">
                                 <i class="fa-regular fa-user"></i>
                                 <p>My Profile</p>
                             </a>
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="student-enroll-course.html" class="single-item ">
+                            <a href="{{route('admin.student_index')}}" class="single-item ">
                                 <i class="fa-light fa-graduation-cap"></i>
                                 <p>Enrolled Courses</p>
                             </a>
@@ -32,16 +32,16 @@
                             </a> -->
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="student-reviews.html" class="single-item ">
+                            <a href="{{route('admin.student_review')}}" class="single-item ">
                                 <i class="fa-regular fa-star"></i>
                                 <p>Reviews</p>
                             </a>
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="student-quiz-attempts.html" class="single-item ">
+                            <!-- <a href="student-quiz-attempts.html" class="single-item ">
                                 <i class="fa-sharp fa-light fa-bullseye-pointer"></i>
                                 <p>My Quiz Attempts</p>
-                            </a>
+                            </a> -->
                             <!-- single item end -->
                             <!-- single item -->
                             <!-- <a href="student-order-history.html" class="single-item ">
@@ -50,13 +50,13 @@
                             </a> -->
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="student-question-answer.html" class="single-item ">
+                            <!-- <a href="student-question-answer.html" class="single-item ">
                                 <i class="fa-regular fa-circle-question"></i>
                                 <p>Question &amp; Answer</p>
-                            </a>
+                            </a> -->
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="student-calender.html" class="single-item ">
+                            <a href="{{route('admin.calender')}}" class="single-item ">
                                 <i class="fa-light fa-calendar-days"></i>
                                 <p>Calendar</p>
                             </a>
