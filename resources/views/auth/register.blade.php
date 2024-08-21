@@ -8,7 +8,7 @@
         <div class="row g-0">
             <div class="col-lg-6">
                 <div class="login-page-form-area">
-                    <h4 class="title">Sign Up to Your Account👋</h4>
+                    <h4 class="title">Sign Up 👋</h4>
                     <form action="#">
                         <div class="single-input-wrapper">
                             <label for="name">Your Name*</label>
