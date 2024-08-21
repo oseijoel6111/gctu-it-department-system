@@ -8,19 +8,19 @@
                     <div class="left-sindebar-dashboard">
                         <div class="dashboard-left-single-wrapper">
                             <!-- single item -->
-                            <a href="student-dashboard.html" class="single-item ">
+                            <a href="{{route('admin.index')}}" class="single-item ">
                                 <i class="fa-light fa-house"></i>
                                 <p>Dashboard</p>
                             </a>
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="student-profile.html" class="single-item ">
+                            <a href="{{route('admin.profile')}}" class="single-item ">
                                 <i class="fa-regular fa-user"></i>
                                 <p>My Profile</p>
                             </a>
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="student-enroll-course.html" class="single-item ">
+                            <a href="{{route('admin.enroll_course')}}" class="single-item ">
                                 <i class="fa-light fa-graduation-cap"></i>
                                 <p>Enrolled Courses</p>
                             </a>
@@ -32,7 +32,7 @@
                             </a> -->
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="student-reviews.html" class="single-item ">
+                            <a href="{{route('admin.review')}}" class="single-item ">
                                 <i class="fa-regular fa-star"></i>
                                 <p>Reviews</p>
                             </a>

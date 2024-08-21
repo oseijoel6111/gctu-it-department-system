@@ -56,7 +56,7 @@
                             </a> -->
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="student-calender.html" class="single-item ">
+                            <a href="{{route('admin.calender')}}" class="single-item ">
                                 <i class="fa-light fa-calendar-days"></i>
                                 <p>Calendar</p>
                             </a>
@@ -95,7 +95,7 @@
                                     <td>
                                         <div class="author-area">
                                             <div class="profile-picture">
-                                                <img src="images/01.png" alt="reviews">
+                                                <img src="/assets/images/01.png" alt="reviews">
                                             </div>
                                             <p>Christopher</p>
                                         </div>
@@ -119,7 +119,7 @@
                                     <td>
                                         <div class="author-area">
                                             <div class="profile-picture">
-                                                <img src="images/02_1.png" alt="reviews">
+                                                <img src="/assets/images/02_1.png" alt="reviews">
                                             </div>
                                             <p>Christopher</p>
                                         </div>
@@ -143,7 +143,7 @@
                                     <td>
                                         <div class="author-area">
                                             <div class="profile-picture">
-                                                <img src="images/03_1.png" alt="reviews">
+                                                <img src="/assets/images/03_1.png" alt="reviews">
                                             </div>
                                             <p>Christopher</p>
                                         </div>
@@ -167,7 +167,7 @@
                                     <td>
                                         <div class="author-area">
                                             <div class="profile-picture">
-                                                <img src="images/04_2.png" alt="reviews">
+                                                <img src="/assets/images/04_2.png" alt="reviews">
                                             </div>
                                             <p>Daniel Jonh</p>
                                         </div>
@@ -191,7 +191,7 @@
                                     <td>
                                         <div class="author-area">
                                             <div class="profile-picture">
-                                                <img src="images/05_1.png" alt="reviews">
+                                                <img src="/assets/images/05_1.png" alt="reviews">
                                             </div>
                                             <p>Jennifer Linda</p>
                                         </div>
@@ -215,7 +215,7 @@
                                     <td>
                                         <div class="author-area">
                                             <div class="profile-picture">
-                                                <img src="images/06_1.png" alt="reviews">
+                                                <img src="/assets/images/06_1.png" alt="reviews">
                                             </div>
                                             <p>Jennifer Linda</p>
                                         </div>
@@ -239,7 +239,7 @@
                                     <td>
                                         <div class="author-area">
                                             <div class="profile-picture">
-                                                <img src="images/07.png" alt="reviews">
+                                                <img src="/assets/images/07.png" alt="reviews">
                                             </div>
                                             <p>Daniel Jonh</p>
                                         </div>
@@ -263,7 +263,7 @@
                                     <td>
                                         <div class="author-area">
                                             <div class="profile-picture">
-                                                <img src="images/08.png" alt="reviews">
+                                                <img src="/assets/images/08.png" alt="reviews">
                                             </div>
                                             <p>James Robert</p>
                                         </div>
@@ -287,7 +287,7 @@
                                     <td>
                                         <div class="author-area">
                                             <div class="profile-picture">
-                                                <img src="images/09.png" alt="reviews">
+                                                <img src="/assets/images/09.png" alt="reviews">
                                             </div>
                                             <p>Daniel Jonh</p>
                                         </div>
@@ -311,7 +311,7 @@
                                     <td>
                                         <div class="author-area">
                                             <div class="profile-picture">
-                                                <img src="images/10.png" alt="reviews">
+                                                <img src="/assets/images/10.png" alt="reviews">
                                             </div>
                                             <p>James Robert</p>
                                         </div>
@@ -335,7 +335,7 @@
                                     <td>
                                         <div class="author-area">
                                             <div class="profile-picture">
-                                                <img src="images/11.png" alt="reviews">
+                                                <img src="/assets/images/11.png" alt="reviews">
                                             </div>
                                             <p>James Robert</p>
                                         </div>

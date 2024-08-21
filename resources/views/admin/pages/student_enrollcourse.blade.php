@@ -101,7 +101,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/01_1.jpg" alt="course">
+                                                <img src="/assets/images/01_1.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -159,7 +159,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/02.jpg" alt="course">
+                                                <img src="/assets/images/02.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -217,7 +217,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/03.jpg" alt="course">
+                                                <img src="/assets/images/03.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -275,7 +275,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/04_1.jpg" alt="course">
+                                                <img src="/assets/images/04_1.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -333,7 +333,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/05.jpg" alt="course">
+                                                <img src="/assets/images/05.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -391,7 +391,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/06.jpg" alt="course">
+                                                <img src="/assets/images/06.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -453,7 +453,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/01_1.jpg" alt="course">
+                                                <img src="/assets/images/01_1.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -511,7 +511,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/02.jpg" alt="course">
+                                                <img src="/assets/images/02.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -569,7 +569,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/03.jpg" alt="course">
+                                                <img src="/assets/images/03.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -627,7 +627,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/04_1.jpg" alt="course">
+                                                <img src="/assets/images/04_1.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -685,7 +685,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/05.jpg" alt="course">
+                                                <img src="/assets/images/05.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -743,7 +743,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/06.jpg" alt="course">
+                                                <img src="/assets/images/06.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -805,7 +805,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/01_1.jpg" alt="course">
+                                                <img src="/assets/images/01_1.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -863,7 +863,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/02.jpg" alt="course">
+                                                <img src="/assets/images/02.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -921,7 +921,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/03.jpg" alt="course">
+                                                <img src="/assets/images/03.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -979,7 +979,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/04_1.jpg" alt="course">
+                                                <img src="/assets/images/04_1.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -1037,7 +1037,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/05.jpg" alt="course">
+                                                <img src="/assets/images/05.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
@@ -1095,7 +1095,7 @@
                                         <!-- single course style two -->
                                         <div class="single-course-style-three enroll-course">
                                             <a href="single-course.html" class="thumbnail">
-                                                <img src="images/06.jpg" alt="course">
+                                                <img src="/assets/images/06.jpg" alt="course">
                                                 <div class="tag-thumb">
                                                     <span>Marketing</span>
                                                 </div>
