@@ -5,7 +5,7 @@
                 <div class="footer-dashboard-inner">
                     <p>Copyright © 2024 All Rights Reserved by <a href="#">Studyhub</a></p>
                     <a href="index.html">
-                        <img src="images/logo-4.svg" alt="logo">
+                        <img src="/assets/images/logo-4.svg" alt="logo">
                     </a>
                     <div class="social-area-dashboard-footer">
                         <ul>
@@ -32,7 +32,7 @@
     <div class="product-area">
         <div class="product-item">
             <div class="product-detail">
-                <div class="product-thumb"><img src="images/01_1.jpg" alt="product-thumb"></div>
+                <div class="product-thumb"><img src="/assets/images/01_1.jpg" alt="product-thumb"></div>
                 <div class="item-wrapper">
                     <span class="product-name">Construct Map</span>
                     <div class="item-wrapper">
@@ -59,7 +59,7 @@
         </div>
         <div class="product-item">
             <div class="product-detail">
-                <div class="product-thumb"><img src="images/02_1.jpg" alt="product-thumb"></div>
+                <div class="product-thumb"><img src="/assets/images/02_1.jpg" alt="product-thumb"></div>
                 <div class="item-wrapper">
                     <span class="product-name"> Bridge product</span>
                     <div class="item-wrapper">
@@ -86,7 +86,7 @@
         </div>
         <div class="product-item last-child">
             <div class="product-detail">
-                <div class="product-thumb"><img src="images/03.jpg" alt="product-thumb"></div>
+                <div class="product-thumb"><img src="/assets/images/03.jpg" alt="product-thumb"></div>
                 <div class="item-wrapper">
                     <span class="product-name">Labour helmet</span>
                     <div class="item-wrapper">
@@ -129,7 +129,7 @@
     <!-- inner menu area desktop start -->
     <div class="inner-main-wrapper-desk">
         <div class="thumbnail">
-            <img src="images/04.jpg" alt="elevate">
+            <img src="/assets/images/04.jpg" alt="elevate">
         </div>
         <div class="inner-content">
             <h4 class="title">We Build Building and Great Constructive Homes.</h4>

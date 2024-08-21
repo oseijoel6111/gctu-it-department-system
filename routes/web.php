@@ -13,7 +13,7 @@ Route::controller(FrontendController::class)->group(function () {
 });
 
 Route::controller(AdminController::class)->prefix('admin')->group(function () {
-    Route::get('/', 'index');
+    Route::get('/', 'index')->name('admin.index');
     Route::get('/profile', 'profile')->name('admin.profile');
     Route::get('/enrollcourse', 'course')->name('admin.enrollcourse');
     Route::get('/review', 'review')->name('admin.review');

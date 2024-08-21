@@ -13,26 +13,26 @@
                                 <ul class="rts-dropdown-menu switcher-language">
                                     <li class="has-child-menu">
                                         <a href="#">
-                                            <img class="left-image" src="images/flag-01.svg" alt="Language Images">
+                                            <img class="left-image" src="/assets/images/flag-01.svg" alt="Language Images">
                                             <span class="menu-item">English</span>
                                             <i class="fa-regular fa-chevron-down"></i>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
                                                 <a href="#">
-                                                    <img class="left-image" src="images/flag-03.svg" alt="Language Images">
+                                                    <img class="left-image" src="/assets/images/flag-03.svg" alt="Language Images">
                                                     <span class="menu-item">Deutsch</span>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#">
-                                                    <img class="left-image" src="images/flag-02.svg" alt="Language Images">
+                                                    <img class="left-image" src="/assets/images/flag-02.svg" alt="Language Images">
                                                     <span class="menu-item">Portuguese</span>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#">
-                                                    <img class="left-image" src="images/flag-04.svg" alt="Language Images">
+                                                    <img class="left-image" src="/assets/images/flag-04.svg" alt="Language Images">
                                                     <span class="menu-item">Russian</span>
                                                 </a>
                                             </li>
@@ -77,7 +77,7 @@
                 <div class="header-one-wrapper">
                     <div class="left-side-header">
                         <a href="index.html" class="logo-area">
-                            <img src="images/logo-1.svg" alt="logo">
+                            <img src="/assets/images/logo-1.svg" alt="logo">
                         </a>
 
                         <div class="main-nav-one">
@@ -120,12 +120,12 @@
                                                     <li><a href="index-ten.html">Business coach</a></li>
                                                 </ul>
                                                 <div class="absolute-image-shape shape-image">
-                                                    <img class=" shape one" src="images/02.png" data-speed="0.04" data-revert="true" alt="nav">
-                                                    <img class=" shape two" src="images/03.png" data-speed="0.04" alt="nav">
+                                                    <img class=" shape one" src="/assets/images/02.png" data-speed="0.04" data-revert="true" alt="nav">
+                                                    <img class=" shape two" src="/assets/images/03.png" data-speed="0.04" alt="nav">
                                                 </div>
                                                 <div class="nav-mega-image">
                                                     <a href="single-course.html">
-                                                        <img src="images/01.jpg" alt="nav">
+                                                        <img src="/assets/images/01.jpg" alt="nav">
                                                     </a>
                                                 </div>
                                             </li>
@@ -202,7 +202,7 @@
                                                     <!-- single thumbnav -->
                                                     <a href="create-course.html" class="single-thumbnav">
                                                         <div class="icon">
-                                                            <img src="images/04.png" alt="nav">
+                                                            <img src="/assets/images/04.png" alt="nav">
                                                         </div>
                                                         <span>Create Course</span>
                                                     </a>
@@ -210,7 +210,7 @@
                                                     <!-- single thumbnav -->
                                                     <a href="lesson-details.html" class="single-thumbnav mash">
                                                         <div class="icon">
-                                                            <img src="images/05.png" alt="nav">
+                                                            <img src="/assets/images/05.png" alt="nav">
                                                         </div>
                                                         <span>Lesson Details</span>
                                                     </a>
@@ -218,7 +218,7 @@
                                                     <!-- single thumbnav -->
                                                     <a href="instructor.html" class="single-thumbnav">
                                                         <div class="icon">
-                                                            <img src="images/06.png" alt="nav">
+                                                            <img src="/assets/images/06.png" alt="nav">
                                                         </div>
                                                         <span>Instructor</span>
                                                     </a>
@@ -233,19 +233,19 @@
                                             <li class="sub-dropdown">
                                                 <a class="submenu-link" href="javascript:void(0);">Instructor Dashboard</a>
                                                 <ul class="submenu third-lvl base">
-                                                    <li><a class="mobile-menu-link" href="dashboard.html">Dashboard</a></li>
+                                                    <li><a class="mobile-menu-link" href="{{route('admin.index')}}">Dashboard</a></li>
                                                     <li><a class="mobile-menu-link" href="{{route('admin.profile')}}">My Profile</a></li>
-                                                    <li><a class="mobile-menu-link" href="enroll-course.html">Enroll Course</a></li>
-                                                    <li><a class="mobile-menu-link" href="wishlist.html">Wishlist</a></li>
-                                                    <li><a class="mobile-menu-link" href="reviews.html">Reviews</a></li>
-                                                    <li><a class="mobile-menu-link" href="quick-attempts.html">Quick Attempts</a></li>
-                                                    <li><a class="mobile-menu-link" href="order-history.html">Order History</a></li>
-                                                    <li><a class="mobile-menu-link" href="question-answer.html">Question Answer</a></li>
-                                                    <li><a class="mobile-menu-link" href="calender.html">Calender</a></li>
-                                                    <li><a class="mobile-menu-link" href="my-course.html">My Course</a></li>
-                                                    <li><a class="mobile-menu-link" href="announcement.html">Announcement</a></li>
-                                                    <li><a class="mobile-menu-link" href="assignments.html">Assignments</a></li>
-                                                    <li><a class="mobile-menu-link" href="certificate.html">Certificate</a></li>
+                                                    <li><a class="mobile-menu-link" href="{{route('admin.enrollcourse')}}">Enroll Course</a></li>
+                                                    <!-- <li><a class="mobile-menu-link" href="wishlist.html">Wishlist</a></li> -->
+                                                    <li><a class="mobile-menu-link" href="{{route('admin.review')}}">Reviews</a></li>
+                                                    <!-- <li><a class="mobile-menu-link" href="quick-attempts.html">Quick Attempts</a></li> -->
+                                                    <!-- <li><a class="mobile-menu-link" href="order-history.html">Order History</a></li>
+                                                    <li><a class="mobile-menu-link" href="question-answer.html">Question Answer</a></li> -->
+                                                    <li><a class="mobile-menu-link" href="{{route('admin.calender')}}">Calender</a></li>
+                                                    <!-- <li><a class="mobile-menu-link" href="my-course.html">My Course</a></li> -->
+                                                    <li><a class="mobile-menu-link" href="{{route('admin.announcement')}}">Announcement</a></li>
+                                                    <li><a class="mobile-menu-link" href="{{route('admin.assignment')}}">Assignments</a></li>
+                                                    <!-- <li><a class="mobile-menu-link" href="certificate.html">Certificate</a></li> -->
                                                 </ul>
                                             </li>
                                             <li class="sub-dropdown">
@@ -329,7 +329,7 @@
                     </div>
                     <div class="author-profile-image-and-name">
                         <div class="profile-pic">
-                            <img src="images/01.png" alt="dashboard">
+                            <img src="/assets/images/01.png" alt="dashboard">
                         </div>
                         <div class="name-desig">
                             <h1 class="title">Jon Adam</h1>

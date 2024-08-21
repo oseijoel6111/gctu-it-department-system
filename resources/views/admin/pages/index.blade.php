@@ -198,7 +198,7 @@
                             <!-- single progress area start -->
                             <div class="single-progress-course">
                                 <a href="single-course.html" class="thumbnail">
-                                    <img src="images/02.jpg" alt="img">
+                                    <img src="/assets/images/02.jpg" alt="img">
                                 </a>
                                 <div class="information-progress-course">
                                     <div class="rating-area">
@@ -228,7 +228,7 @@
                             <!-- single progress area start -->
                             <div class="single-progress-course">
                                 <a href="single-course.html" class="thumbnail">
-                                    <img src="images/03_1.jpg" alt="img">
+                                    <img src="/assets/images/03_1.jpg" alt="img">
                                 </a>
                                 <div class="information-progress-course">
                                     <div class="rating-area">
@@ -258,7 +258,7 @@
                             <!-- single progress area start -->
                             <div class="single-progress-course">
                                 <a href="single-course.html" class="thumbnail">
-                                    <img src="images/04_1.jpg" alt="img">
+                                    <img src="/assets/images/04_1.jpg" alt="img">
                                 </a>
                                 <div class="information-progress-course">
                                     <div class="rating-area">

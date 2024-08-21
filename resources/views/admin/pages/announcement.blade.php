@@ -123,7 +123,7 @@
                         <div class="top-announcement-wrapper">
                             <div class="left-wrapper">
                                 <div class="icon">
-                                    <img src="images/01_1.png" alt="announcement">
+                                    <img src="/assets/images/01_1.png" alt="announcement">
                                 </div>
                                 <div class="information">
                                     <span>Create Announcement</span>
