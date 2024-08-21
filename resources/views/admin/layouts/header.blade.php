@@ -235,7 +235,7 @@
                                                 <ul class="submenu third-lvl base">
                                                     <li><a class="mobile-menu-link" href="{{route('admin.index')}}">Dashboard</a></li>
                                                     <li><a class="mobile-menu-link" href="{{route('admin.profile')}}">My Profile</a></li>
-                                                    <li><a class="mobile-menu-link" href="{{route('admin.enrollcourse')}}">Enroll Course</a></li>
+                                                    <li><a class="mobile-menu-link" href="{{route('admin.enroll_course')}}">Enroll Course</a></li>
                                                     <!-- <li><a class="mobile-menu-link" href="wishlist.html">Wishlist</a></li> -->
                                                     <li><a class="mobile-menu-link" href="{{route('admin.review')}}">Reviews</a></li>
                                                     <!-- <li><a class="mobile-menu-link" href="quick-attempts.html">Quick Attempts</a></li> -->
@@ -251,7 +251,7 @@
                                             <li class="sub-dropdown">
                                                 <a class="submenu-link" href="javascript:void(0);">Students Dashboard</a>
                                                 <ul class="submenu third-lvl base">
-                                                    <li><a class="mobile-menu-link" href="student-dashboard.html">Dashboard</a></li>
+                                                    <li><a class="mobile-menu-link" href="{{route('admin.student_index')}}">Dashboard</a></li>
                                                     <li><a class="mobile-menu-link" href="student-profile.html">My Profile</a></li>
                                                     <li><a class="mobile-menu-link" href="student-enroll-course.html">Enroll Course</a></li>
                                                     <li><a class="mobile-menu-link" href="student-wishlist.html">Wishlist</a></li>

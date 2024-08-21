@@ -14,7 +14,7 @@ class AdminController extends Controller
         return view('admin.pages.profile');
     }
     public function course(){
-        return view('admin.pages.enrollcourse');
+        return view('admin.pages.enroll_course');
     }
     public function review(){
         return view('admin.pages.review');
@@ -29,5 +29,9 @@ class AdminController extends Controller
     
     public function calender(){
         return view('admin.pages.calender');
+    }
+
+    public function student_index(){
+        return view('admin.pages.student_index');
     }
 }
