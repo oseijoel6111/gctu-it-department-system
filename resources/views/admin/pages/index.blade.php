@@ -25,36 +25,14 @@
                             <p>Enrolled Courses</p>
                         </a>
                         <!-- single item end -->
-                        <!-- single item -->
-                        <!-- <a href="wishlist.html" class="single-item">
-                            <i class="fa-sharp fa-light fa-bookmark"></i>
-                            <p>Wishlist</p>
-                        </a> -->
-                        <!-- single item end -->
+
                         <!-- single item -->
                         <a href="{{route('admin.review')}}" class="single-item">
                             <i class="fa-regular fa-star"></i>
                             <p>Reviews</p>
                         </a>
                         <!-- single item end -->
-                        <!-- single item -->
-                        <!-- <a href="quiz-attempts.html" class="single-item">
-                            <i class="fa-sharp fa-light fa-bullseye-pointer"></i>
-                            <p>My Quiz Attempts</p>
-                        </a> -->
-                        <!-- single item end -->
-                        <!-- single item -->
-                        <!-- <a href="order-history.html" class="single-item">
-                            <i class="fa-sharp fa-light fa-bag-shopping"></i>
-                            <p>Order History</p>
-                        </a> -->
-                        <!-- single item end -->
-                        <!-- single item -->
-                        <!-- <a href="question-answer.html" class="single-item">
-                            <i class="fa-regular fa-circle-question"></i>
-                            <p>Question &amp; Answer</p>
-                        </a> -->
-                        <!-- single item end -->
+
                         <!-- single item -->
                         <a href="{{route('admin.calender')}}" class="single-item">
                             <i class="fa-light fa-calendar-days"></i>
@@ -225,36 +203,7 @@
                                 </div>
                             </div>
                             <!-- single progress area end -->
-                            <!-- single progress area start -->
-                            <div class="single-progress-course">
-                                <a href="single-course.html" class="thumbnail">
-                                    <img src="/assets/images/03_1.jpg" alt="img">
-                                </a>
-                                <div class="information-progress-course">
-                                    <div class="rating-area">
-                                        <i class="fa-light fa-star"></i>
-                                        <i class="fa-light fa-star"></i>
-                                        <i class="fa-light fa-star"></i>
-                                        <i class="fa-light fa-star"></i>
-                                        <i class="fa-light fa-star"></i>
-                                        <span>(0)</span>
-                                    </div>
-                                    <a href="single-course.html">
-                                        <h5 class="title">Front-End Course With Bootstrap 5</h5>
-                                    </a>
-                                    <span class="comp">Completed Lessons: 5 of 7 lesson</span>
-                                    <div class="progress-wrapper-lesson-compleate">
-                                        <div class="progress">
-                                            <div class="progress-bar wow fadeInLeft bg--primary" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                        <div class="end">
-                                            <span>80% Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- single progress area end -->
+                           
                             <!-- single progress area start -->
                             <div class="single-progress-course">
                                 <a href="single-course.html" class="thumbnail">
