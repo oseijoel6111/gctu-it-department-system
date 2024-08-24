@@ -4,98 +4,7 @@
 <div class="dashboard--area-main pt--100 pt_sm--50">
     <div class="container">
         <div class="row g-5">
-            <div class="col-lg-3 rts-sticky-column-item">
-                <div class="left-sindebar-dashboard theiaStickySidebar">
-                    <div class="dashboard-left-single-wrapper">
-                        <!-- single item -->
-                        <a href="dashboard.html" class="single-item active">
-                            <i class="fa-light fa-house"></i>
-                            <p>Dashboard</p>
-                        </a>
-                        <!-- single item end -->
-                        <!-- single item -->
-                        <a href="{{route('admin.profile')}}" class="single-item">
-                            <i class="fa-regular fa-user"></i>
-                            <p>My Profile</p>
-                        </a>
-                        <!-- single item end -->
-                        <!-- single item -->
-                        <a href="{{route('admin.enroll_course')}}" class="single-item">
-                            <i class="fa-light fa-graduation-cap"></i>
-                            <p>Enrolled Courses</p>
-                        </a>
-                        <!-- single item end -->
-
-                        <!-- single item -->
-                        <a href="{{route('admin.review')}}" class="single-item">
-                            <i class="fa-regular fa-star"></i>
-                            <p>Reviews</p>
-                        </a>
-                        <!-- single item end -->
-
-                        <!-- single item -->
-                        <a href="{{route('admin.calender')}}" class="single-item">
-                            <i class="fa-light fa-calendar-days"></i>
-                            <p>Calendar</p>
-                        </a>
-                        <!-- single item end -->
-                    </div>
-                    <div class="dashboard-left-single-wrapper mt--40">
-                        <h4 class="title mb--5">Instructor</h4>
-                        <!-- single item -->
-                        <!-- <a href="my-course.html" class="single-item">
-                            <i class="fa-light fa-book"></i>
-                            <p>My Courses</p>
-                        </a> -->
-                        <!-- single item end -->
-                        <!-- single item -->
-                        <!-- <a href="my-bundles.html" class="single-item">
-                            <i class="fa-sharp fa-regular fa-layer-group"></i>
-                            <p>My Bundles</p>
-                        </a> -->
-                        <!-- single item end -->
-                        <!-- single item -->
-                        <a href="{{route('admin.announcement')}}" class="single-item">
-                            <i class="fa-solid fa-megaphone"></i>
-                            <p>Announcements</p>
-                        </a>
-                        <!-- single item end -->
-                        <!-- single item -->
-                        <!-- <a href="withdrowals.html" class="single-item">
-                            <i class="fa-regular fa-box"></i>
-                            <p>Withdrawals</p>
-                        </a> -->
-                        <!-- single item end -->
-                        <!-- single item -->
-                        <a href="{{route('admin.assignment')}}" class="single-item">
-                            <i class="fa-regular fa-page"></i>
-                            <p>Assignments</p>
-                        </a>
-                        <!-- single item end -->
-                        <!-- single item -->
-                        <!-- <a href="certificate.html" class="single-item">
-                            <i class="fa-sharp fa-light fa-file-certificate"></i>
-                            <p>Certificate</p>
-                        </a> -->
-                        <!-- single item end -->
-                    </div>
-                    <div class="dashboard-left-single-wrapper bbnone mt--40">
-                        <h4 class="title mb--5">User</h4>
-                        <!-- single item -->
-                        <a href="settings.html" class="single-item">
-                            <i class="fa-sharp fa-regular fa-gear"></i>
-                            <p>Settings</p>
-                        </a>
-                        <!-- single item end -->
-                        <!-- single item -->
-                        <a href="index.html" class="single-item">
-                            <i class="fa-light fa-right-from-bracket"></i>
-                            <p>Logout</p>
-                        </a>
-                        <!-- single item end -->
-                    </div>
-                </div>
-            </div>
+            <x-sidebar />
             <div class="col-lg-9">
                 <div class="right-sidebar-dashboard">
                     <div class="row g-5">
@@ -203,7 +112,7 @@
                                 </div>
                             </div>
                             <!-- single progress area end -->
-                           
+
                             <!-- single progress area start -->
                             <div class="single-progress-course">
                                 <a href="single-course.html" class="thumbnail">
