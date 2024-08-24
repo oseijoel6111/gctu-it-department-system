@@ -26,15 +26,8 @@
                         </div>
                         <button class="rts-btn btn-primary">Login</button>
 
-                        <div class="google-apple-wrapper">
-                            <div class="google">
-                                <img src="{{asset('/assets/images/06_1.png')}}" alt="contact">
-                            </div>
-                            <div class="google">
-                                <img src="{{asset('/assets/images/07.png')}}" alt="contact">
-                            </div>
-                        </div>
-                        <p>Don't Have an account? <a href="{{route('signup')}}">Registration</a></p>
+
+                     
                     </form>
                 </div>
             </div>

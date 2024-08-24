@@ -236,16 +236,11 @@
                                                     <li><a class="mobile-menu-link" href="{{route('admin.index')}}">Dashboard</a></li>
                                                     <li><a class="mobile-menu-link" href="{{route('admin.profile')}}">My Profile</a></li>
                                                     <li><a class="mobile-menu-link" href="{{route('admin.enroll_course')}}">Enroll Course</a></li>
-                                                    <!-- <li><a class="mobile-menu-link" href="wishlist.html">Wishlist</a></li> -->
                                                     <li><a class="mobile-menu-link" href="{{route('admin.review')}}">Reviews</a></li>
-                                                    <!-- <li><a class="mobile-menu-link" href="quick-attempts.html">Quick Attempts</a></li> -->
-                                                    <!-- <li><a class="mobile-menu-link" href="order-history.html">Order History</a></li>
-                                                    <li><a class="mobile-menu-link" href="question-answer.html">Question Answer</a></li> -->
                                                     <li><a class="mobile-menu-link" href="{{route('admin.calender')}}">Calender</a></li>
-                                                    <!-- <li><a class="mobile-menu-link" href="my-course.html">My Course</a></li> -->
+
                                                     <li><a class="mobile-menu-link" href="{{route('admin.announcement')}}">Announcement</a></li>
                                                     <li><a class="mobile-menu-link" href="{{route('admin.assignment')}}">Assignments</a></li>
-                                                    <!-- <li><a class="mobile-menu-link" href="certificate.html">Certificate</a></li> -->
                                                 </ul>
                                             </li>
                                             <li class="sub-dropdown">
@@ -254,13 +249,9 @@
                                                     <li><a class="mobile-menu-link" href="{{route('admin.student_index')}}">Dashboard</a></li>
                                                     <li><a class="mobile-menu-link" href="student-profile.html">My Profile</a></li>
                                                     <li><a class="mobile-menu-link" href="{{route('admin.student_course')}}">Enroll Course</a></li>
-                                                    <!-- <li><a class="mobile-menu-link" href="student-wishlist.html">Wishlist</a></li> -->
+
                                                     <li><a class="mobile-menu-link" href="student-reviews.html">Reviews</a></li>
-                                                    <!-- <li><a class="mobile-menu-link" href="student-quick-attempts.html">Quick Attempts</a></li> -->
-                                                    <!-- <li><a class="mobile-menu-link" href="student-order-history.html">Order History</a></li> -->
-                                                    <!-- <li><a class="mobile-menu-link" href="student-question-answer.html">Question Answer</a></li> -->
                                                     <li><a class="mobile-menu-link" href="{{route('admin.calender')}}">Calender</a></li>
-                                                    <!-- <li><a class="mobile-menu-link" href="student-settings.html">Student Settings</a></li> -->
                                                 </ul>
                                             </li>
                                         </ul>
