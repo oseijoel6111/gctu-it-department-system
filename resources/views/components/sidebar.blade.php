@@ -35,6 +35,7 @@
             <!-- single item end -->
         </div>
 
+        {{-- Students sidebar section start --}}
         <div class="dashboard-left-single-wrapper mt--40">
             <h4 class="title mb--5"> Academic Activities</h4>
 
@@ -95,21 +96,92 @@
             </a>
         </div>
 
+        {{-- Students sidebar section end --}}
+
+        {{-- Admin sidebar section start --}}
         <div class="dashboard-left-single-wrapper mt--40">
-            <h4 class="title mb--5">Instructor</h4>
+            <h4 class="title mb--5"> Student Management</h4>
 
             <a href="{{route('admin.announcement')}}" class="single-item">
                 <i class="fa-solid fa-megaphone"></i>
-                <p>Announcements</p>
+                <p>Manage Students</p>
             </a>
-            <!-- single item end -->
             <!-- single item -->
             <a href="{{route('admin.assignment')}}" class="single-item">
                 <i class="fa-regular fa-page"></i>
-                <p>Assignments</p>
+                <p>Manage Retake/Resit Registrations</p>
             </a>
             <!-- single item end -->
-            <!-- single item end -->
+            <a href="{{route('admin.assignment')}}" class="single-item">
+                <i class="fa-regular fa-page"></i>
+                <p>Manage Deferments</p>
+            </a>
+            <a href="{{route('admin.assignment')}}" class="single-item">
+                <i class="fa-regular fa-page"></i>
+                <p>Manage Session Change Requests</p>
+            </a>
+            <a href="{{route('admin.assignment')}}" class="single-item">
+                <i class="fa-regular fa-page"></i>
+                <p>Manage Project Work</p>
+            </a>
+            <a href="{{route('admin.assignment')}}" class="single-item">
+                <i class="fa-regular fa-page"></i>
+                <p>Manage Industrial Attachments</p>
+            </a>
+            <a href="{{route('admin.assignment')}}" class="single-item">
+                <i class="fa-regular fa-page"></i>
+                <p>Manage Results Complaints</p>
+            </a>
+            <a href="{{route('admin.assignment')}}" class="single-item">
+                <i class="fa-regular fa-page"></i>
+                <p>Manage Recommendation Letters</p>
+            </a>
+        </div>
+
+        <div class="dashboard-left-single-wrapper mt--40">
+            <h4 class="title mb--5"> Academic Management </h4>
+
+            <a href="{{route('admin.announcement')}}" class="single-item">
+                <i class="fa-solid fa-megaphone"></i>
+                <p>Manage Programs</p>
+            </a>
+            <!-- single item -->
+            <a href="{{route('admin.assignment')}}" class="single-item">
+                <i class="fa-regular fa-page"></i>
+                <p>Manage Sessions</p>
+            </a>
+            <a href="{{route('admin.assignment')}}" class="single-item">
+                <i class="fa-regular fa-page"></i>
+                <p>Manage Courses</p>
+            </a>
+        </div>
+
+        <div class="dashboard-left-single-wrapper mt--40">
+            <h4 class="title mb--5"> Resources </h4>
+
+            <a href="{{route('admin.announcement')}}" class="single-item">
+                <i class="fa-solid fa-megaphone"></i>
+                <p>Manage Attendance Forms</p>
+            </a>
+            <!-- single item -->
+            <a href="{{route('admin.assignment')}}" class="single-item">
+                <i class="fa-regular fa-page"></i>
+                <p>Manage Timetables</p>
+            </a>
+        </div>
+
+        <div class="dashboard-left-single-wrapper mt--40">
+            <h4 class="title mb--5"> Staff Management </h4>
+
+            <a href="{{route('admin.announcement')}}" class="single-item">
+                <i class="fa-solid fa-megaphone"></i>
+                <p>Manage Staff</p>
+            </a>
+            <!-- single item -->
+            <a href="{{route('admin.assignment')}}" class="single-item">
+                <i class="fa-regular fa-page"></i>
+                <p>Manage Departments</p>
+            </a>
         </div>
 
         <div class="dashboard-left-single-wrapper bbnone mt--40">
