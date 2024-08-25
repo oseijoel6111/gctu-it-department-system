@@ -57,8 +57,8 @@
             <div class="col-lg-12">
                 <div class="header-one-wrapper">
                     <div class="left-side-header">
-                        <a href="index.html" class="logo-area">
-                            <img src="/assets/images/logo-1.svg" alt="logo">
+                        <a href="{{route('admin.index')}}" class="logo-area">
+                            <img src="{{asset('/assets/images/gctu.png')}}" class="pic" alt="logo">
                         </a>
 
                     </div>

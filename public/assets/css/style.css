@@ -31301,4 +31301,14 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 .blog-single-two-wrapper .image-area .thumbnail:hover img {
   transform: scale(1.05);
 }
+
+.mage{
+  height: 70px;
+  width: 200px;
+}
+
+.pic{
+  height: 70px;
+  width: 800px;
+}
 /*# sourceMappingURL=../maps/style.css.map */
