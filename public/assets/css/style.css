@@ -56,13 +56,13 @@
   --color-primary: #05195E;
   --color-primary-gym: #B10D00;
   --color-primary-kitchen: #ff6d1c;
-  --color-secondary: #1F1F25;
-  --color-secondary-2: #110C2D;
+  --color-secondary:  #05195E;
+  --color-secondary-2:  #05195E;
   --color-body: #737477;
   --color-body-2: #F9F8FF;
-  --color-secondary: #1F1F25;
-  --color-heading-1: #110C2D;
-  --color-heading-2: #262626;
+  --color-secondary:  #05195E;
+  --color-heading-1:  #05195E;
+  --color-heading-2:  #05195E;
   --color-white:#fff;
   --color-success: #3EB75E;
   --color-danger: #FF0003;
@@ -26609,7 +26609,7 @@ edit .quantity-edit button {
   color: var(--color-primary);
 }
 .single-dashboard-card .title {
-  color: #553CDF;
+  color:  #05195E;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -26712,7 +26712,7 @@ edit .quantity-edit button {
   height: 4px;
 }
 .single-progress-course .information-progress-course .progress-wrapper-lesson-compleate .progress .progress-bar {
-  background-color: #553CDF;
+  background-color: #05195E;
 }
 .single-progress-course .information-progress-course .progress-wrapper-lesson-compleate .end {
   min-width: max-content;
@@ -26864,7 +26864,7 @@ edit .quantity-edit button {
 }
 
 .footer-dashboard {
-  background: #110C2D;
+  background:  #05195E;
 }
 .footer-dashboard .footer-dashboard-inner {
   display: flex;
