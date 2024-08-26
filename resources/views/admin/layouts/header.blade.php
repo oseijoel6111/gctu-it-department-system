@@ -5,10 +5,9 @@
                 <div class="col-lg-12">
                     <div class="header-top-one">
                         <div class="left-information">
-                            <a href="mailto:someone@example.com" class="email"><i
-                                    class="fa-light fa-envelope"></i>info@studyhub.com</a>
-                            <a href="tel:+4733378901" class="email"><i class="fa-light fa-phone"></i>+61 012 012
-                                445</a>
+                            <a href="mailto:someone@example.com" class="email" style="color: #fff;"><i
+                                    class="fa-light fa-envelope" ></i>info@gctu.edu.gh</a>
+                            <a href="tel:+4733378901" class="email" style="color: #fff;"><i class="fa-light fa-phone"></i>0303940446</a>
                         </div>
                         <div class="right-information">
                             <div class="right-information">
@@ -16,29 +15,29 @@
                                     <li class="has-child-menu">
                                         <a href="#">
                                             <img class="left-image" src="/assets/images/flag-01.svg"
-                                                alt="Language Images">
-                                            <span class="menu-item">English</span>
+                                                alt="Language">
+                                            <span class="menu-item" style="color: #fff;">English</span>
                                             <i class="fa-regular fa-chevron-down"></i>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
                                                 <a href="#">
                                                     <img class="left-image" src="/assets/images/flag-03.svg"
-                                                        alt="Language Images">
+                                                        alt="Language">
                                                     <span class="menu-item">Deutsch</span>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#">
                                                     <img class="left-image" src="/assets/images/flag-02.svg"
-                                                        alt="Language Images">
+                                                        alt="Language">
                                                     <span class="menu-item">Portuguese</span>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#">
                                                     <img class="left-image" src="/assets/images/flag-04.svg"
-                                                        alt="Language Images">
+                                                        alt="Language">
                                                     <span class="menu-item">Russian</span>
                                                 </a>
                                             </li>
@@ -75,7 +74,7 @@
 
                         </div>
                         <div class="buttons-area">
-                            <a href="" class="rts-btn btn-border">Log out</a>
+                            <a href="" class="rts-btn btn-border" style="color: #fff;">Log out</a>
                         </div>
                         <div class="menu-btn" id="menu-btn">
                             <svg width="20" height="16" viewBox="0 0 20 16" fill="none"

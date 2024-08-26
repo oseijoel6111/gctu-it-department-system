@@ -37,7 +37,7 @@
                             </div>
                             <h1 class="title-banner">
                                 Unlock Your Potential <br>
-                                <!-- with <span>Online Learning</span> -->
+
                                 <img src="{{asset('/assets/images/02.png')}}" alt="banner">
                             </h1>
                             <p class="disc">Discover a world of knowledge and opportunities for yourself

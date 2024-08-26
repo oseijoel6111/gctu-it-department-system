@@ -5,8 +5,8 @@
                 <div class="col-lg-12">
                     <div class="header-top-one">
                         <div class="left-information">
-                            <a href="mailto:someone@example.com" class="email"><i class="fa-light fa-envelope"></i>info@studyhub.com</a>
-                            <a href="tel:+4733378901" class="email"><i class="fa-light fa-phone"></i>+61 012 012 445</a>
+                            <a href="mailto:someone@example.com" class="email"><i class="fa-light fa-envelope"></i>info@gctu.edu.gh</a>
+                            <a href="tel:+4733378901" class="email"><i class="fa-light fa-phone"></i>0303940446</a>
                         </div>
                         <div class="right-information">
                             <ul class="rts-dropdown-menu switcher-language">
