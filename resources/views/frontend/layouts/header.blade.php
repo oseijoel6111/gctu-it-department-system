@@ -85,12 +85,12 @@
                         <nav>
                             <ul>
                                 <li class="has-dropdown" style="position: static;">
-                                    <a class="nav-link" href="#">Home</a>
+                                    <a class="nav-link" href="#" style="color: #fff;">Home</a>
                                 </li>
 
 
                                 <li class="has-dropdown" style="position: static;">
-                                    <a class="nav-link" href="#">Courses</a>
+                                    <a class="nav-link" href="#" style="color: #fff;">Courses</a>
 
                                 </li>
                             </ul>
@@ -110,7 +110,7 @@
                             
                         </div>
                         <div class="buttons-area">
-                            <a href="{{route('login')}}" class="rts-btn btn-border">Log In</a>
+                            <a href="{{route('login')}}" class="rts-btn btn-border" style="color: #ffff;">Log In</a>
                         </div>
                         <div class="menu-btn" id="menu-btn">
                             <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">

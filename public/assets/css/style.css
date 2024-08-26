@@ -53,7 +53,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
 :root {
-  --color-primary: #553CDF;
+  --color-primary: #05195E;
   --color-primary-gym: #B10D00;
   --color-primary-kitchen: #ff6d1c;
   --color-secondary: #1F1F25;
@@ -14169,7 +14169,7 @@ xclip
 
 /* Header */
 .header-top-one-wrapper {
-  background: var(--color-primary);
+  background: var(--color-primary) !important;
   padding: 0;
 }
 @media only screen and (max-width: 767px) {
@@ -14310,11 +14310,13 @@ xclip
   align-items: center;
   justify-content: space-between;
   position: relative;
+  background-color: var(--color-primary);
+  
 }
 .header-one-wrapper .left-side-header {
   display: flex;
   align-items: center;
-  gap: 70px;
+  gap: 80px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .header-one-wrapper .left-side-header {
@@ -14352,11 +14354,11 @@ xclip
   }
 }
 .header-one-wrapper .left-side-header .category-area .category-btn span {
-  color: #553CDF;
+  color: #fff;
   font-weight: 500;
 }
 .header-one-wrapper .left-side-header .category-area .category-btn i {
-  color: #553CDF;
+  color: #fff;
 }
 .header-one-wrapper .left-side-header .category-area:hover .category-sub-menu {
   visibility: visible;
@@ -14406,16 +14408,16 @@ xclip
   background: transparent;
 }
 .header-one-wrapper .left-side-header .category-area .category-sub-menu li a span {
-  color: #1F1F25;
+  color: #fff;
 }
 .header-one-wrapper .left-side-header .category-area .category-sub-menu li a:hover {
-  background: #EEEBFF;
+  background: var(--color-primary) !important;
 }
 .header-one-wrapper .left-side-header .category-area .category-sub-menu li a:hover span {
   color: #553CDF;
 }
 .header-one-wrapper .left-side-header .category-area .category-sub-menu li a img {
-  width: 45px;
+  width: 40px;
 }
 .header-one-wrapper .left-side-header .category-area .category-sub-menu li a h4 {
   color: #1F1F25;
