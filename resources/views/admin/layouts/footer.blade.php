@@ -3,9 +3,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="footer-dashboard-inner">
-                    <p>Copyright © 2024 All Rights Reserved by <a href="#">Studyhub</a></p>
+                    <p>Copyright © 2024 All Rights Reserved by <a href="#"></a></p>
                     <a href="index.html">
-                        <img src="/assets/images/logo-4.svg" alt="logo">
+                        <img src="{{asset('/assets/images/gctu.png')}}" class="mage" alt="logo">
                     </a>
                     <div class="social-area-dashboard-footer">
                         <ul>

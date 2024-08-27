@@ -33,15 +33,15 @@
                         <div class="inner">
                             <div class="pre-title-banner">
                                 <img src="{{asset('/assets/images/bulb.png')}}" width="22" alt="icon">
-                                <span>Gateway to Lifelong Learning</span>
+                                <span>Knowledge Comes From Learning</span>
                             </div>
                             <h1 class="title-banner">
                                 Unlock Your Potential <br>
-                                with <span>Online Learning</span>
+
                                 <img src="{{asset('/assets/images/02.png')}}" alt="banner">
                             </h1>
-                            <p class="disc">Discover a world of knowledge and opportunities with our online
-                                education platform pursue a new career.</p>
+                            <p class="disc">Discover a world of knowledge and opportunities for yourself
+                                at Ghana Communication Technology University.</p>
                             <div class="banner-btn-author-wrapper">
                                 <a href="course-five.html" class="rts-btn btn-primary with-arrow">View All Course <i class="fa-regular fa-arrow-right"></i></a>
                                 <div class="sm-image-wrapper">
@@ -50,10 +50,10 @@
                                         <img class="two" src="{{asset('/assets/images/07.png')}}" alt="banner">
                                         <img class="three" src="{{asset('/assets/images/08.png')}}" alt="banner">
                                     </div>
-                                    <div class="info">
+                                    <!-- <div class="info">
                                         <h6 class="title">2k students</h6>
                                         <span>Joint our online Class</span>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -99,55 +99,55 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="brand-style-one ">
-                        <div class="left-title">
+                        <!-- <div class="left-title">
                             <h6 class="title">Trusted by:</h6>
-                        </div>
+                        </div> -->
                         <div class="swiper mySwiper-category-1 swiper-data" data-swiper="{
                             " spacebetween":30,="" "slidesperview":6,="" "loop":="" true,="" "speed":="" 1500,="" "autoplay":{="" "delay":"4000"="" },="" "breakpoints":{="" "0":{="" "slidesperview":2,="" "spacebetween":30},="" "320":{="" "480":{="" "slidesperview":3,="" "640":{="" "slidesperview":4,="" "840":{="" "1140":{="" "spacebetween":30}="" }="" }"="">
-                            <div class="swiper-wrapper">
+                            <!-- <div class="swiper-wrapper"> -->
                                 <!-- single swiper style -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="brand-area">
                                         <img src="{{asset('/assets/images/08_1.svg')}}" alt="brand">
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- single swiper style -->
                                 <!-- single swiper style -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="brand-area">
                                         <img src="{{asset('/assets/images/09.svg')}}" alt="brand">
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- single swiper style -->
                                 <!-- single swiper style -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="brand-area">
                                         <img src="{{asset('/assets/images/10.svg')}}" alt="brand">
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- single swiper style -->
                                 <!-- single swiper style -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="brand-area">
                                         <img src="{{asset('/assets/images/11.svg')}}" alt="brand">
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- single swiper style -->
                                 <!-- single swiper style -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="brand-area">
                                         <img src="{{asset('/assets/images/12.svg')}}" alt="brand">
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- single swiper style -->
                                 <!-- single swiper style -->
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="brand-area">
                                         <img src="{{asset('/assets/images/13.svg')}}" alt="brand">
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- single swiper style -->
-                            </div>
+                            <!-- </div> -->
                         </div>
                     </div>
                 </div>
@@ -155,12 +155,12 @@
         </div>
     </div>
 
-
+<!-- 
     <div class="about-area-start rts-section-gapBottom">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-12">
-                    <!-- about-one-imagearea -->
+                    
                     <div class="about-one-left-image">
                         <div class="first-order">
                             <div class="thumb-one">
@@ -197,13 +197,13 @@
                             </div>
                         </div>
                     </div>
-                    <!-- about-one-imagearea end -->
+                    
                 </div>
                 <div class="col-xl-6 col-lg-12 pl--60 pl_lg--15 pl_md--10 pl_sm--10 pt_lg--50 pt_md--50 pt_sm--50">
                     <div class="title-area-left-style">
                         <div class="pre-title">
                             <img src="{{asset('/assets/images/bulb.png')}}" alt="icon">
-                            <span>Gateway to Lifelong Learning</span>
+                            <span>Knowledge Comes From Learning</span>
                         </div>
                         <h2 class="title">Know Studyhub Empowering
                             Learners Worldwide</h2>
@@ -211,7 +211,7 @@
                     </div>
                     <div class="about-inner-right-one">
                         <div class="what-you-get">
-                            <!-- single-facilities -->
+                            
                             <div class="single-facilityes">
                                 <div class="icon">
                                     <img src="{{asset('/assets/images/01_1.png')}}" alt="icon">
@@ -221,8 +221,7 @@
                                     <p>We are passionate education.</p>
                                 </div>
                             </div>
-                            <!-- single-facilities end -->
-                            <!-- single-facilities -->
+                            
                             <div class="single-facilityes">
                                 <div class="icon">
                                     <img src="{{asset('/assets/images/02_2.png')}}" alt="icon">
@@ -232,7 +231,7 @@
                                     <p>We are passionate about education</p>
                                 </div>
                             </div>
-                            <!-- single-facilities end -->
+                           
                         </div>
                         <div class="author-area">
                             <div class="single-author-and-info">
@@ -250,7 +249,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
      <!-- footer call to action area start -->

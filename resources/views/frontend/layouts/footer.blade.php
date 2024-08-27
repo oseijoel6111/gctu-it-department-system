@@ -1,4 +1,4 @@
-<div class="footer-callto-action-area bg-light-1">
+<div class="footer-callto-action-area " style="background: var(--color-primary) !important;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -35,7 +35,7 @@
                                 all backgrounds.
                             </p>
                             <ul class="wrapper-list">
-                                <li><i class="fa-regular fa-location-dot"></i>Yarra Park, Melbourne, Australia </li>
+                                <li><i class="fa-regular fa-location-dot"></i>Tesano Accra, Ghana </li>
                                 <li><i class="fa-regular fa-phone"></i><a href="tel:+4733378901">+(61) 485-826-710</a>
                                 </li>
                             </ul>
@@ -84,7 +84,7 @@
                             <form action="#">
                                 <div class="input-area-fill">
                                     <input type="email" placeholder="Enter Your Email" required="">
-                                    <button> Subscribe</button>
+                                    <button > Subscribe</button>
                                 </div>
                                 <div class="d-flex align-items-center">
                                     <input type="checkbox" id="exampleCheck1">
