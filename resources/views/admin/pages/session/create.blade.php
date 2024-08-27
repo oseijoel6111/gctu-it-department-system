@@ -1,6 +1,6 @@
 <x-master title="Home">
     @include('admin.layouts.header-crumb')
-    <x-bread-crumb title="Create Student" />
+    <x-bread-crumb title="Create Session" />
 
     <div class="crea-te-course-area-start ptb--100">
         <div class="container">
@@ -13,7 +13,7 @@
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Program Info
+                                        Session Info
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
