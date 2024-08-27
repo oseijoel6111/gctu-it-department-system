@@ -1,10 +1,10 @@
-@extends('admin.layouts.master')
-
-@section('content')
+<x-master headerSection='admin.layouts.header' title="Home">
 <div class="dashboard--area-main pt--100 pt_sm--50">
     <div class="container">
         <div class="row g-5">
+
             <x-sidebar />
+
             <div class="col-lg-9">
                 <div class="right-sidebar-dashboard">
                     <div class="row g-5">
@@ -246,4 +246,4 @@
         </div>
     </div>
 </div>
-@endsection
+</x-master>

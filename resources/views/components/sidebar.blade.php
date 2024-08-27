@@ -184,6 +184,8 @@
             </a>
         </div>
 
+         {{-- Admin sidebar section end --}}
+
         <div class="dashboard-left-single-wrapper bbnone mt--40">
             <h4 class="title mb--5">User</h4>
             <!-- single item -->
