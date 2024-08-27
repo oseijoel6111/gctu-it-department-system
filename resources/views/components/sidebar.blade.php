@@ -102,7 +102,7 @@
         <div class="dashboard-left-single-wrapper mt--40">
             <h4 class="title mb--5"> Student Management</h4>
 
-            <a href="" class="single-item">
+            <a href="{{route('admin.student.index')}}" class="single-item">
                 <i class="fa-solid fa-megaphone"></i>
                 <p>Manage Students</p>
             </a>

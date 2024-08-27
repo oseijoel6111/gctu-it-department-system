@@ -1,194 +1,95 @@
-<x-master headerSection='admin.layouts.header' title="Home">
-    <div class="dashboard--area-main pt--100 pt_sm--50">
+<x-master title="Home">
+    @include('admin.layouts.header-crumb')
+    <x-bread-crumb title="Create Student" />
+
+    <div class="crea-te-course-area-start ptb--100">
         <div class="container">
             <div class="row g-5">
+                <div class="col-lg-8">
+                    <div class="create-course-area-main-wrapper-inner">
+                        <div class="accordion" id="accordionExample">
+                            <!-- single accordion nitem area start -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Student Info
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="course-information-area">
+                                            <form action="#" class="top-form-create-course">
+                                                <div class="single-input">
+                                                    <label for="name">Course Title</label>
+                                                    <input id="name" type="text" placeholder="New Course">
+                                                </div>
+                                                <div class="single-input">
+                                                    <label for="slug">Course Slug</label>
+                                                    <input id="slug" type="text" placeholder="New Course">
+                                                </div>
+                                                <div class="single-input">
+                                                    <label for="message-2">About Course</label>
+                                                    <textarea id="message-2" placeholder="New Course"></textarea>
+                                                </div>
 
-                <x-sidebar />
 
-                <div class="col-lg-9">
-                    <div class="announcements-wrapper-dashed">
-                        <div class="top-announcement-wrapper">
-                            <div class="left-wrapper">
-                                <div class="icon">
-                                    <img src="/assets/images/01_1.png" alt="announcement">
-                                </div>
-                                <div class="information">
-                                    <span>Create Announcement</span>
-                                    <p>Notify all students of your course</p>
+
+                                            </form>
+                                            <div class="modal-footer">
+                                                <button type="button" class="rts-btn btn-primary">Create</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="right">
-                                <button type="button" class="rts-btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Add New Announcement</button>
-                            </div>
+
                         </div>
-                        <div class="course-short-by-date-wrapper">
-                            <div class="single-course-filter">
-                                <span>Course</span>
-                                <select class="nice-select" name="price">
-                                    <option>Read (12)</option>
-                                    <option value="asc">Stars (30)</option>
-                                    <option value="desc">Comments(42)</option>
-                                    <option value="pop">Popularity (20)</option>
-                                    <option value="low">Questions &amp; Ans (10)</option>
-                                    <option value="high">Stars (52)</option>
-                                </select>
-                            </div>
-                            <div class="single-course-filter short-by">
-                                <span>Course</span>
-                                <select class="nice-select" name="price">
-                                    <option>Read (12)</option>
-                                    <option value="asc">Stars (30)</option>
-                                    <option value="desc">Comments(42)</option>
-                                    <option value="pop">Popularity (20)</option>
-                                    <option value="low">Questions &amp; Ans (10)</option>
-                                    <option value="high">Stars (52)</option>
-                                </select>
-                            </div>
-                            <div class="single-course-filter short-by">
-                                <span>Date</span>
-                                <div class="date-picker-area">
-                                    <input placeholder="Select your date" type="text" name="checkIn" id="datepicker" value="mm/dd/yyyy" class="calendar">
-                                    <i class="fa-light fa-calendar-lines-pen"></i>
-                                </div>
-                            </div>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-4 rts-sticky-column-item">
+                    <div class="course-upload-tips-wrapper theiaStickySidebar">
+                        <h5 class="title">Student Upload Tips</h5>
+                        <div class="single-check-wrapper">
+                            <i class="fa-light fa-circle-check"></i>
+                            <span>Set the Course Price option or make it free.</span>
                         </div>
-                        <div class="rts-reviewd-area-dashed table-responsive" style="white-space: nowrap;">
-                            <table class="table-reviews quiz announcement">
-                                <thead>
-                                    <tr>
-                                        <th style="width: 30%;">Date</th>
-                                        <th>Announcements</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="information-quiz">
-                                                <span>November 28, 2023</span>
-                                                <p class="quiz">9:20 pm</p>
-                                            </div>
-                                        </td>
-                                        <td class="announcement-1">
-                                            <div class="left">
-                                                <p>Recently Update Web Design Course</p>
-                                                <span>Course: New Courses</span>
-                                            </div>
-                                            <div class="right">
-                                                <button class="rts-btn btn-primary">Details</button>
-                                                <i class="fa-regular fa-ellipsis-vertical"></i>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="information-quiz">
-                                                <span>November 28, 2023</span>
-                                                <p class="quiz">9:20 pm</p>
-                                            </div>
-                                        </td>
-                                        <td class="announcement-1">
-                                            <div class="left">
-                                                <p>Recently Update Web Design Course</p>
-                                                <span>Course: New Courses</span>
-                                            </div>
-                                            <div class="right">
-                                                <button class="rts-btn btn-primary">Details</button>
-                                                <i class="fa-regular fa-ellipsis-vertical"></i>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="information-quiz">
-                                                <span>November 28, 2023</span>
-                                                <p class="quiz">9:20 pm</p>
-                                            </div>
-                                        </td>
-                                        <td class="announcement-1">
-                                            <div class="left">
-                                                <p>Recently Update Web Design Course</p>
-                                                <span>Course: New Courses</span>
-                                            </div>
-                                            <div class="right">
-                                                <button class="rts-btn btn-primary">Details</button>
-                                                <i class="fa-regular fa-ellipsis-vertical"></i>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="information-quiz">
-                                                <span>November 28, 2023</span>
-                                                <p class="quiz">9:20 pm</p>
-                                            </div>
-                                        </td>
-                                        <td class="announcement-1">
-                                            <div class="left">
-                                                <p>Recently Update Web Design Course</p>
-                                                <span>Course: New Courses</span>
-                                            </div>
-                                            <div class="right">
-                                                <button class="rts-btn btn-primary">Details</button>
-                                                <i class="fa-regular fa-ellipsis-vertical"></i>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="information-quiz">
-                                                <span>November 28, 2023</span>
-                                                <p class="quiz">9:20 pm</p>
-                                            </div>
-                                        </td>
-                                        <td class="announcement-1">
-                                            <div class="left">
-                                                <p>Recently Update Web Design Course</p>
-                                                <span>Course: New Courses</span>
-                                            </div>
-                                            <div class="right">
-                                                <button class="rts-btn btn-primary">Details</button>
-                                                <i class="fa-regular fa-ellipsis-vertical"></i>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="information-quiz">
-                                                <span>November 28, 2023</span>
-                                                <p class="quiz">9:20 pm</p>
-                                            </div>
-                                        </td>
-                                        <td class="announcement-1">
-                                            <div class="left">
-                                                <p>Recently Update Web Design Course</p>
-                                                <span>Course: New Courses</span>
-                                            </div>
-                                            <div class="right">
-                                                <button class="rts-btn btn-primary">Details</button>
-                                                <i class="fa-regular fa-ellipsis-vertical"></i>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <div class="pagination-full-width">
-                                <span>Page 1 of 4</span>
-                                <div class="pagination">
-                                    <ul>
-                                        <li><a href="#0" class="prev"><i class="fa-solid fa-chevron-left"></i></a></li>
-                                        <li><a href="#0">1</a></li>
-                                        <li><a href="#0">2</a></li>
-                                        <li><a href="#0">3</a></li>
-                                        <li><a href="#0">4</a></li>
-                                        <li><a href="#0" class="next"><i class="fa-solid fa-chevron-right"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <div class="single-check-wrapper">
+                            <i class="fa-light fa-circle-check"></i>
+                            <span>Standard size for the course thumbnail is
+                                700x430.</span>
+                        </div>
+                        <div class="single-check-wrapper">
+                            <i class="fa-light fa-circle-check"></i>
+                            <span>Video section controls the course overview video.</span>
+                        </div>
+                        <div class="single-check-wrapper">
+                            <i class="fa-light fa-circle-check"></i>
+                            <span>Course Builder is where you create &amp; organize
+                                a course.</span>
+                        </div>
+                        <div class="single-check-wrapper">
+                            <i class="fa-light fa-circle-check"></i>
+                            <span>Add Topics in the Course Builder section to create
+                                lessons, quizzes, and assignments.</span>
+                        </div>
+                        <div class="single-check-wrapper">
+                            <i class="fa-light fa-circle-check"></i>
+                            <span>Prerequisites refers to the fundamental courses
+                                to complete before taking this particular course.</span>
+                        </div>
+                        <div class="single-check-wrapper">
+                            <i class="fa-light fa-circle-check"></i>
+                            <span>Information from the Additional Data section
+                                shows up on the course single page.</span>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
-    </x-master>
+
+</x-master>

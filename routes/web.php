@@ -21,6 +21,8 @@ Route::prefix('admin')->group(function () {
     });
 
     Route::controller(StudentController::class)->group(function () {
-        Route::get('/students', 'index')->name('admin.student_index');
+        Route::get('/students', 'index')->name('admin.student.index');
+        Route::get('/students/create', 'create')->name('admin.student.create');
+        Route::post('/students/store', 'store')->name('admin.student.store');
     });
 });

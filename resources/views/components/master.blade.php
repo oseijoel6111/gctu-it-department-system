@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{$title}} - GCTU IT Department</title>
+    <title>{{ $title }} - GCTU IT Department</title>
     <link rel="stylesheet" href="{{ asset('/assets/css/fontawesome-6.css') }}">
     <!-- swiper Css 10.2.0 -->
     <link rel="stylesheet" href="{{ asset('/assets/css/swiper.min.css') }}">
@@ -23,8 +23,9 @@
 
 <body>
 
-    @include($headerSection)
-
+    @if (isset($headerSection))
+        @include($headerSection)
+    @endif
     {{ $slot }}
 
     @include('admin.layouts.footer')

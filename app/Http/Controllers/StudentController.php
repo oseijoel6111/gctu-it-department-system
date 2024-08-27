@@ -11,4 +11,13 @@ class StudentController extends Controller
         return view('admin.pages.student.index');
     }
 
+    public function create(){
+        return view('admin.pages.student.create');
+    }
+
+    public function store(){
+
+
+    }
+
 }
