@@ -20,7 +20,7 @@
                             </a>
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="{{route('admin.enroll_course')}}" class="single-item ">
+                            <a href="" class="single-item ">
                                 <i class="fa-light fa-graduation-cap"></i>
                                 <p>Enrolled Courses</p>
                             </a>

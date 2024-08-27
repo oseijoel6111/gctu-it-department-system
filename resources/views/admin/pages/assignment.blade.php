@@ -21,7 +21,7 @@
                             </a>
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="{{route('admin.enroll_course')}}" class="single-item ">
+                            <a href="" class="single-item ">
                                 <i class="fa-light fa-graduation-cap"></i>
                                 <p>Enrolled Courses</p>
                             </a>
@@ -78,7 +78,7 @@
                             </a> -->
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="{{route('admin.announcement')}}" class="single-item ">
+                            <a href="" class="single-item ">
                                 <i class="fa-solid fa-megaphone"></i>
                                 <p>Announcements</p>
                             </a>

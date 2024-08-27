@@ -8,27 +8,27 @@
             </a>
             <!-- single item end -->
             <!-- single item -->
-            <a href="{{route('admin.profile')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-user"></i>
                 <p>My Profile</p>
             </a>
             <!-- single item end -->
             <!-- single item -->
-            <a href="{{route('admin.enroll_course')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-light fa-graduation-cap"></i>
                 <p>Enrolled Courses</p>
             </a>
             <!-- single item end -->
 
             <!-- single item -->
-            <a href="{{route('admin.review')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-star"></i>
                 <p>Reviews</p>
             </a>
             <!-- single item end -->
 
             <!-- single item -->
-            <a href="{{route('admin.calender')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-light fa-calendar-days"></i>
                 <p>Calendar</p>
             </a>
@@ -39,21 +39,21 @@
         <div class="dashboard-left-single-wrapper mt--40">
             <h4 class="title mb--5"> Academic Activities</h4>
 
-            <a href="{{route('admin.announcement')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-solid fa-megaphone"></i>
                 <p>Retake/Resit</p>
             </a>
             <!-- single item -->
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Course Registration</p>
             </a>
             <!-- single item end -->
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Project Work</p>
             </a>
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Industrial Attachment</p>
             </a>
@@ -62,21 +62,21 @@
         <div class="dashboard-left-single-wrapper mt--40">
             <h4 class="title mb--5"> Requests </h4>
 
-            <a href="{{route('admin.announcement')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-solid fa-megaphone"></i>
                 <p>Deferment of Programme</p>
             </a>
             <!-- single item -->
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Change of Session</p>
             </a>
             <!-- single item end -->
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Recommendation Letter</p>
             </a>
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Results Complaint</p>
             </a>
@@ -85,12 +85,12 @@
         <div class="dashboard-left-single-wrapper mt--40">
             <h4 class="title mb--5"> Resources </h4>
 
-            <a href="{{route('admin.announcement')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-solid fa-megaphone"></i>
                 <p>Class Attendance</p>
             </a>
             <!-- single item -->
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Timetable</p>
             </a>
@@ -102,37 +102,37 @@
         <div class="dashboard-left-single-wrapper mt--40">
             <h4 class="title mb--5"> Student Management</h4>
 
-            <a href="{{route('admin.announcement')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-solid fa-megaphone"></i>
                 <p>Manage Students</p>
             </a>
             <!-- single item -->
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Retake/Resit Registrations</p>
             </a>
             <!-- single item end -->
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Deferments</p>
             </a>
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Session Change Requests</p>
             </a>
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Project Work</p>
             </a>
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Industrial Attachments</p>
             </a>
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Results Complaints</p>
             </a>
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Recommendation Letters</p>
             </a>
@@ -141,16 +141,16 @@
         <div class="dashboard-left-single-wrapper mt--40">
             <h4 class="title mb--5"> Academic Management </h4>
 
-            <a href="{{route('admin.announcement')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-solid fa-megaphone"></i>
                 <p>Manage Programs</p>
             </a>
             <!-- single item -->
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Sessions</p>
             </a>
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Courses</p>
             </a>
@@ -159,12 +159,12 @@
         <div class="dashboard-left-single-wrapper mt--40">
             <h4 class="title mb--5"> Resources </h4>
 
-            <a href="{{route('admin.announcement')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-solid fa-megaphone"></i>
                 <p>Manage Attendance Forms</p>
             </a>
             <!-- single item -->
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Timetables</p>
             </a>
@@ -173,12 +173,12 @@
         <div class="dashboard-left-single-wrapper mt--40">
             <h4 class="title mb--5"> Staff Management </h4>
 
-            <a href="{{route('admin.announcement')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-solid fa-megaphone"></i>
                 <p>Manage Staff</p>
             </a>
             <!-- single item -->
-            <a href="{{route('admin.assignment')}}" class="single-item">
+            <a href="" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Departments</p>
             </a>

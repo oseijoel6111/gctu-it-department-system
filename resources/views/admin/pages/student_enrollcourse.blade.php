@@ -9,19 +9,19 @@
                     <div class="left-sindebar-dashboard">
                         <div class="dashboard-left-single-wrapper">
                             <!-- single item -->
-                            <a href="{{route('admin.student_index')}}" class="single-item ">
+                            <a href="" class="single-item ">
                                 <i class="fa-light fa-house"></i>
                                 <p>Dashboard</p>
                             </a>
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="{{route('admin.student_profile')}}" class="single-item ">
+                            <a href="" class="single-item ">
                                 <i class="fa-regular fa-user"></i>
                                 <p>My Profile</p>
                             </a>
                             <!-- single item end -->
                             <!-- single item -->
-                            <a href="{{route('admin.student_index')}}" class="single-item active">
+                            <a href="" class="single-item active">
                                 <i class="fa-light fa-graduation-cap"></i>
                                 <p>Enrolled Courses</p>
                             </a>
