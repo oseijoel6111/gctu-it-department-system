@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="call-to-sction bg_image shape-move">
-                    <h2 class="title">Skills Certificate From <br> the Studyhub</h2>
+                <div class="call-to-sction bg_image shape-move" style="background: #B9963F">
+                    <h2 class="title" >Skilled Courses At GCTU</h2>
                     <a href="course-one.html" class="rts-btn btn-primary-white with-arrow">View All Course <i
                             class="fa-regular fa-arrow-right"></i></a>
                     <div class="cta-image">
@@ -35,8 +35,8 @@
                                 all backgrounds.
                             </p>
                             <ul class="wrapper-list">
-                                <li><i class="fa-regular fa-location-dot"></i>Tesano Accra, Ghana </li>
-                                <li><i class="fa-regular fa-phone"></i><a href="tel:+4733378901">+(61) 485-826-710</a>
+                                <li><i class="fa-regular fa-location-dot" ></i>Tesano Accra, Ghana </li>
+                                <li><i class="fa-regular fa-phone" "></i><a href="tel:0303940446">0303940446</a>
                                 </li>
                             </ul>
                         </div>
@@ -45,7 +45,7 @@
                     <!-- single sized  footer  -->
                     <div class="footer-singl-wized">
                         <div class="head">
-                            <h6 class="title">Quick Links</h6>
+                            <h6 class="title" >Quick Links</h6>
                         </div>
                         <div class="body">
                             <ul class="menu">
@@ -64,8 +64,8 @@
                             <h6 class="title">Explore</h6>
                         </div>
                         <div class="body">
-                            <ul class="menu">
-                                <li><a href="course-one.html">Course One</a></li>
+                            <ul class="menu" >
+                                <li><a href="course-one.html" >Course One</a></li>
                                 <li><a href="course-two.html">Course Two</a></li>
                                 <li><a href="create-course.html">Create Course</a></li>
                                 <li><a href="lesson-details.html">Lesson Details</a></li>
