@@ -14,12 +14,12 @@
                                     <img src="/assets/images/01_1.png" alt="announcement">
                                 </div>
                                 <div class="information">
-                                    <span>Add Students</span>
+                                    <span>Add Courses</span>
                                     <p>Notify all students of your course</p>
                                 </div>
                             </div>
                             <div class="right">
-                                <a  class="rts-btn btn-primary" href="{{route('admin.student.create')}}">Add Students</a>
+                                <a  class="rts-btn btn-primary" href="{{route('admin.course.create')}}">Add Courses</a>
                             </div>
                         </div>
                         <div class="course-short-by-date-wrapper">

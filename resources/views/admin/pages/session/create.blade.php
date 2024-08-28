@@ -1,4 +1,4 @@
-<x-master title="Home">
+<x-master title="Session">
     @include('admin.layouts.header-crumb')
     <x-bread-crumb title="Create Session" />
 

@@ -1,6 +1,6 @@
-<x-master title="Home">
+<x-master title="Program">
     @include('admin.layouts.header-crumb')
-    <x-bread-crumb title="Create Student" />
+    <x-bread-crumb title="Create Program" />
 
     <div class="crea-te-course-area-start ptb--100">
         <div class="container">

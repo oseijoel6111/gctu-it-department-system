@@ -19,7 +19,7 @@
                                 </div>
                             </div>
                             <div class="right">
-                                <a  class="rts-btn btn-primary" href="{{route('admin.student.create')}}">Add Programs</a>
+                                <a  class="rts-btn btn-primary" href="{{route('admin.session.create')}}">Add Session</a>
                             </div>
                         </div>
                         <div class="course-short-by-date-wrapper">

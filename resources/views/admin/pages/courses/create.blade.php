@@ -1,4 +1,4 @@
-<x-master title="Home">
+<x-master title="Course">
     @include('admin.layouts.header-crumb')
     <x-bread-crumb title="Create Course" />
 
@@ -13,7 +13,7 @@
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Student Info
+                                        Course Info
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
@@ -52,7 +52,7 @@
                 </div>
                 <div class="col-lg-4 rts-sticky-column-item">
                     <div class="course-upload-tips-wrapper theiaStickySidebar">
-                        <h5 class="title">Student Upload Tips</h5>
+                        <h5 class="title">Course Upload Tips</h5>
                         <div class="single-check-wrapper">
                             <i class="fa-light fa-circle-check"></i>
                             <span>Set the Course Price option or make it free.</span>

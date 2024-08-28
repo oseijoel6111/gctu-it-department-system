@@ -141,16 +141,16 @@
         <div class="dashboard-left-single-wrapper mt--40">
             <h4 class="title mb--5"> Academic Management </h4>
 
-            <a href="" class="single-item">
+            <a href="{{route('admin.program.index')}}" class="single-item">
                 <i class="fa-solid fa-megaphone"></i>
                 <p>Manage Programs</p>
             </a>
             <!-- single item -->
-            <a href="" class="single-item">
+            <a href="{{route('admin.session.index')}}" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Sessions</p>
             </a>
-            <a href="" class="single-item">
+            <a href="{{route('admin.course.index')}}" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Courses</p>
             </a>

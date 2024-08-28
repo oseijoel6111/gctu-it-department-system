@@ -8,11 +8,11 @@ class CourseController extends Controller
 {
 
     public function index(){
-        return view('admin.pages.student.index');
+        return view('admin.pages.courses.index');
     }
 
     public function create(){
-        return view('admin.pages.student.create');
+        return view('admin.pages.courses.create');
     }
 
     public function store(){
