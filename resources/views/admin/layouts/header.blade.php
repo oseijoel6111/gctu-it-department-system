@@ -91,11 +91,11 @@
     </div>
 </header>
 
-<div class="dashboard-banner-area-wrapper">
+<div class="dashboard-banner-area-wrapper" >
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="dashboard-banner-area-start bg_image">
+        <div class="row" >
+            <div class="col-lg-12" >
+                <div class="dashboard-banner-area-start bg_image" style=" background: #B9963F;">
                     <div class="rating-area-banner-dashboard">
                         <div class="stars">
                             <span>4.5</span>
