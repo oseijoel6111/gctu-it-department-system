@@ -22,17 +22,17 @@
                                         <div class="course-information-area">
                                             <form action="#" class="top-form-create-course">
                                                 <div class="single-input">
-                                                    <label for="name">Course Title</label>
+                                                    <label for="name">Session Name</label>
                                                     <input id="name" type="text" placeholder="New Course">
                                                 </div>
-                                                <div class="single-input">
+                                                <!-- <div class="single-input">
                                                     <label for="slug">Course Slug</label>
                                                     <input id="slug" type="text" placeholder="New Course">
-                                                </div>
-                                                <div class="single-input">
+                                                </div> -->
+                                                <!-- <div class="single-input">
                                                     <label for="message-2">About Course</label>
                                                     <textarea id="message-2" placeholder="New Course"></textarea>
-                                                </div>
+                                                </div> -->
 
 
 
@@ -52,39 +52,34 @@
                 </div>
                 <div class="col-lg-4 rts-sticky-column-item">
                     <div class="course-upload-tips-wrapper theiaStickySidebar">
-                        <h5 class="title">Program Upload Tips</h5>
+                        <h5 class="title">Session Upload Tips</h5>
                         <div class="single-check-wrapper">
                             <i class="fa-light fa-circle-check"></i>
-                            <span>Set the Course Price option or make it free.</span>
+                            <span>Prepare Your Files</span>
                         </div>
                         <div class="single-check-wrapper">
                             <i class="fa-light fa-circle-check"></i>
-                            <span>Standard size for the course thumbnail is
-                                700x430.</span>
+                            <span>Check File Size Limits</span>
                         </div>
                         <div class="single-check-wrapper">
                             <i class="fa-light fa-circle-check"></i>
-                            <span>Video section controls the course overview video.</span>
+                            <span>Supported File Types</span>
                         </div>
                         <div class="single-check-wrapper">
                             <i class="fa-light fa-circle-check"></i>
-                            <span>Course Builder is where you create &amp; organize
-                                a course.</span>
+                            <span>Stable Internet Connection</span>
                         </div>
                         <div class="single-check-wrapper">
                             <i class="fa-light fa-circle-check"></i>
-                            <span>Add Topics in the Course Builder section to create
-                                lessons, quizzes, and assignments.</span>
+                            <span>Upload Progress</span>
                         </div>
                         <div class="single-check-wrapper">
                             <i class="fa-light fa-circle-check"></i>
-                            <span>Prerequisites refers to the fundamental courses
-                                to complete before taking this particular course.</span>
+                            <span>Select multiple file once</span>
                         </div>
                         <div class="single-check-wrapper">
                             <i class="fa-light fa-circle-check"></i>
-                            <span>Information from the Additional Data section
-                                shows up on the course single page.</span>
+                            <span>Double-Check Before Submission</span>
                         </div>
                     </div>
                 </div>

@@ -62,7 +62,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <!-- <tr>
                                         <td>
                                             <div class="information-quiz">
                                                 <span>November 28, 2023</span>
@@ -151,7 +151,7 @@
                                                 <i class="fa-regular fa-ellipsis-vertical"></i>
                                             </div>
                                         </td>
-                                    </tr>
+                                    </tr> -->
                                     <tr>
                                         <td>
                                             <div class="information-quiz">

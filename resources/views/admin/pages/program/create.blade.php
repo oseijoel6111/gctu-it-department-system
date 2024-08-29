@@ -22,16 +22,16 @@
                                         <div class="course-information-area">
                                             <form action="#" class="top-form-create-course">
                                                 <div class="single-input">
-                                                    <label for="name">Course Title</label>
-                                                    <input id="name" type="text" placeholder="New Course">
+                                                    <label for="name">Program Name</label>
+                                                    <input id="name" type="text" placeholder="Program Name">
                                                 </div>
-                                                <div class="single-input">
+                                                <!-- <div class="single-input">
                                                     <label for="slug">Course Slug</label>
                                                     <input id="slug" type="text" placeholder="New Course">
-                                                </div>
+                                                </div> -->
                                                 <div class="single-input">
-                                                    <label for="message-2">About Course</label>
-                                                    <textarea id="message-2" placeholder="New Course"></textarea>
+                                                    <label for="message-2">About Program</label>
+                                                    <textarea id="message-2" placeholder="Program description"></textarea>
                                                 </div>
 
 
