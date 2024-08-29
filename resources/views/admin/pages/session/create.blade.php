@@ -20,26 +20,18 @@
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <div class="course-information-area">
-                                            <form action="#" class="top-form-create-course">
+                                            <form action="{{route('admin.session.store')}}" method="POST" class="top-form-create-course">
+                                                @csrf
                                                 <div class="single-input">
                                                     <label for="name">Session Name</label>
-                                                    <input id="name" type="text" placeholder="New Course">
+                                                    <input id="name" name="session" type="text" placeholder="New Course">
                                                 </div>
-                                                <!-- <div class="single-input">
-                                                    <label for="slug">Course Slug</label>
-                                                    <input id="slug" type="text" placeholder="New Course">
-                                                </div> -->
-                                                <!-- <div class="single-input">
-                                                    <label for="message-2">About Course</label>
-                                                    <textarea id="message-2" placeholder="New Course"></textarea>
-                                                </div> -->
 
-
-
+                                                <div class="modal-footer">
+                                                    <button type="submit" class="rts-btn btn-primary">Create</button>
+                                                </div>
                                             </form>
-                                            <div class="modal-footer">
-                                                <button type="button" class="rts-btn btn-primary">Create</button>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
