@@ -40,17 +40,17 @@
             <h4 class="title mb--5"> Academic Activities</h4>
 
             <a href="" class="single-item">
-                <i class="fa-solid fa-megaphone"></i>
+                <i class="fa-solid fa-pencil-square"></i>
                 <p>Retake/Resit</p>
             </a>
             <!-- single item -->
             <a href="" class="single-item">
-                <i class="fa-regular fa-page"></i>
+                <i class="fa-regular fa-pencil-square"></i>
                 <p>Course Registration</p>
             </a>
             <!-- single item end -->
             <a href="" class="single-item">
-                <i class="fa-regular fa-page"></i>
+                <i class="fa-regular fa-pencil-square"></i>
                 <p>Project Work</p>
             </a>
             <a href="" class="single-item">
@@ -91,7 +91,7 @@
             </a>
             <!-- single item -->
             <a href="" class="single-item">
-                <i class="fa-regular fa-page"></i>
+                <i class="fa-regular fa-clock"></i>
                 <p>Timetable</p>
             </a>
         </div>
@@ -165,7 +165,7 @@
             </a>
             <!-- single item -->
             <a href="" class="single-item">
-                <i class="fa-regular fa-page"></i>
+                <i class="fa-regular fa-clock"></i>
                 <p>Manage Timetables</p>
             </a>
         </div>

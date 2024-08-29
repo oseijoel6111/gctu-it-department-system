@@ -1,6 +1,6 @@
 <x-master title="Course">
     @include('admin.layouts.header-crumb')
-    <x-bread-crumb title="Create Course" />
+    <x-bread-crumb title="Create Course"/>
 
     <div class="crea-te-course-area-start ptb--100">
         <div class="container">
