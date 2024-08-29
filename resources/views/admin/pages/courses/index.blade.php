@@ -32,24 +32,50 @@
                                         <th>Program</th>
                                         <th>Credits</th>
                                         <th>Semester</th>
+                                        <th></th>
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    @foreach($courses as $course)
                                     <tr>
                                         <td>
                                             <div class="information-quiz">
-                                                <span>November 28, 2023</span>
+                                                <span>{{$course->created_at->format('F d, Y')}}</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="information-quiz">
+                                                <span>{{$course->course_code}}</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="information-quiz">
+                                                <span>{{$course->course_name}}</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="information-quiz">
+                                                <span>{{$course->program->program_name}}</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="information-quiz">
+                                                <span>{{$course->credits}}</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="information-quiz">
+                                                <span>{{$course->semester}}</span>
                                             </div>
                                         </td>
                                         <td class="announcement-1">
-                                            <div class="left">
-                                                <p>Recently Update Web Design Course</p>
-                                            </div>
+
                                             <div class="right">
                                                 <i class="fa-regular fa-ellipsis-vertical"></i>
                                             </div>
                                         </td>
                                     </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
 

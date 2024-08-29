@@ -9,23 +9,26 @@ use Illuminate\Http\Request;
 class CourseController extends Controller
 {
 
-    public function index(){
-
-        return view('admin.pages.courses.index');
+    public function index()
+    {
+        $courses = Course::all();
+        return view('admin.pages.courses.index')->with(['courses' => $courses]);
     }
 
-    public function create(){
+    public function create()
+    {
         $programs = Program::all();
-        return view('admin.pages.courses.create')->with(['programs'=> $programs]);
+        return view('admin.pages.courses.create')->with(['programs' => $programs]);
     }
 
-    public function store(Request $request){
+    public function store(Request $request)
+    {
         $request->validate([
             'code' => ['required', 'string'],
-            'name'=> ['string', 'required'],
-            'program'=> ['string', 'required'],
-            'credits'=> ['string', 'required'],
-            'semester'=> ['string', 'required']
+            'name' => ['string', 'required'],
+            'program' => ['string', 'required'],
+            'credits' => ['string', 'required'],
+            'semester' => ['string', 'required']
         ]);
 
         Course::create([
@@ -33,10 +36,9 @@ class CourseController extends Controller
             'course_name' => $request->get('name'),
             'program_id' => $request->get('program'),
             'credits' => $request->get('credits'),
-            'semester'=> $request->get('semester')
+            'semester' => $request->get('semester')
         ]);
 
         return redirect()->to(route('admin.course.index'));
     }
-
 }
