@@ -7,17 +7,21 @@ use Illuminate\Http\Request;
 
 class ProgramController extends Controller
 {
-    public function index(){
-        return view('admin.pages.program.index');
+    public function index()
+    {
+        $programs = Program::all();
+        return view('admin.pages.program.index')->with(['programs' => $programs]);
     }
 
-    public function create(){
+    public function create()
+    {
         return view('admin.pages.program.create');
     }
 
-    public function store(Request $request){
+    public function store(Request $request)
+    {
         $request->validate([
-            'programName' =>['string', 'required'],
+            'programName' => ['string', 'required'],
             'description' => ['string', 'required'],
         ]);
 
