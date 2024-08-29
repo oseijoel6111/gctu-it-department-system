@@ -8,7 +8,6 @@
                 <div class="col-lg-8">
                     <div class="create-course-area-main-wrapper-inner">
                         <div class="accordion" id="accordionExample">
-                            <!-- single accordion nitem area start -->
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -20,46 +19,40 @@
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <div class="course-information-area">
-                                            <form action="#" class="top-form-create-course">
+                                            <form action="{{route('admin.course.store')}}" method="POST" class="top-form-create-course">
+                                                @csrf
                                                 <div class="single-input">
                                                     <label for="name">Course Code</label>
-                                                    <input id="name" type="text" placeholder="New Course">
+                                                    <input id="name" name="code" type="text" placeholder="Course Code">
                                                 </div>
                                                 <div class="single-input">
-                                                    <label for="slug">Course Name</label>
-                                                    <input id="slug" type="text" placeholder="Course Name">
+                                                    <label for="name">Course Name</label>
+                                                    <input id="name" name="name" type="text" placeholder="Course Name">
                                                 </div>
-                                                <!-- <div class="single-input">
-                                                    <label for="message-2">About Course</label>
-                                                    <textarea id="message-2" placeholder="New Course"></textarea>
-                                                </div> -->
                                                 <div class="single-input">
                                                   <label for="program">Program</label>
-                                                   <select id="program">
+                                                   <select id="program" name="program">
                                                    <option value="" disabled selected>Select a Program</option>
-                                                    <option value="course1">Course 1</option>
-                                                    <option value="course2">Course 2</option>
-                                                    <option value="course3">Course 3</option>
+                                                   @foreach ($programs as $program)
+                                                   <option value="{{$program->id}}">{{$program->program_name}}</option>
+                                                   @endforeach
                                                      </select>
                                                 </div>
 
                                                 <div class="single-input">
-                                                    <label for="slug">Course Credit</label>
-                                                    <input id="slug" type="text" placeholder="Course Name">
+                                                    <label for="credits">Course Credit</label>
+                                                    <input id="credits" name="credits" type="number" placeholder="Credits">
                                                 </div>
 
                                                 <div class="single-input">
-                                                    <label for="slug">Semester</label>
-                                                    <input id="slug" type="text" placeholder="Course Name">
+                                                    <label for="semester">Semester</label>
+                                                    <input id="semester" name="semester" type="text" placeholder="Semester">
                                                 </div>
-
-
-
-
+                                                <div class="modal-footer">
+                                                    <button type="submit" class="rts-btn btn-primary">Create</button>
+                                                </div>
                                             </form>
-                                            <div class="modal-footer">
-                                                <button type="button" class="rts-btn btn-primary">Create</button>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
