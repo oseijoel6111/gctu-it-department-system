@@ -22,16 +22,33 @@
                                         <div class="course-information-area">
                                             <form action="#" class="top-form-create-course">
                                                 <div class="single-input">
-                                                    <label for="name">Course Title</label>
-                                                    <input id="name" type="text" placeholder="New Course">
+                                                    <label for="name">Student Name</label>
+                                                    <input id="name" type="text" placeholder="Student Name">
                                                 </div>
                                                 <div class="single-input">
-                                                    <label for="slug">Course Slug</label>
-                                                    <input id="slug" type="text" placeholder="New Course">
-                                                </div>
-                                                <div class="single-input">
-                                                    <label for="message-2">About Course</label>
-                                                    <textarea id="message-2" placeholder="New Course"></textarea>
+                                                    <label for="program">Program Id</label>
+                                                    <select id="program">
+                                                    <option value="" disabled selected>Select a Program</option>
+                                                    <option value="course1">Course 1</option>
+                                                    <option value="course2">Course 2</option>
+                                                   <option value="course3">Course 3</option>
+                                                  </select>
+                                                  </div>
+
+                                                  <div class="single-input">
+                                                    <label for="program">Session Id</label>
+                                                    <select id="program">
+                                                    <option value="" disabled selected>Select a Program</option>
+                                                    <option value="course1">Course 1</option>
+                                                    <option value="course2">Course 2</option>
+                                                    <option value="course3">Course 3</option>
+
+                                                    </select>
+                                                    </div>
+                                                    
+                                                    <div class="single-input">
+                                                    <label for="name">Student Email</label>
+                                                    <input id="name" type="text" placeholder="Student Email">
                                                 </div>
 
 
