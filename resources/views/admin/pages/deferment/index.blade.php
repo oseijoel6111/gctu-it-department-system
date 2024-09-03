@@ -19,7 +19,7 @@
                                 </div>
                             </div>
                             <div class="right">
-                                <a  class="rts-btn btn-primary" href="{{route('admin.program.create')}}">Add Programs</a>
+                                <a  class="rts-btn btn-primary" href="{{route('admin.deferment.create')}}">Add deferment</a>
                             </div>
                         </div>
                         <div class="course-short-by-date-wrapper">

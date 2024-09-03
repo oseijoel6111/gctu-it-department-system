@@ -62,12 +62,12 @@
         <div class="dashboard-left-single-wrapper mt--40">
             <h4 class="title mb--5"> Requests </h4>
 
-            <a href="" class="single-item">
+            <a href="{{route('admin.deferment.index')}}" class="single-item">
                 <i class="fa-solid fa-megaphone"></i>
                 <p>Deferment of Programme</p>
             </a>
             <!-- single item -->
-            <a href="" class="single-item">
+            <a href="{{route('admin.sessionChange.index')}}" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Change of Session</p>
             </a>
@@ -85,6 +85,7 @@
         <div class="dashboard-left-single-wrapper mt--40">
             <h4 class="title mb--5"> Resources </h4>
 
+            <a href="{{route('admin.classAttendance.index')}}" class="single-item">
             <a href="" class="single-item">
                 <i class="fa-solid fa-megaphone"></i>
                 <p>Class Attendance</p>
@@ -112,11 +113,11 @@
                 <p>Manage Retake/Resit Registrations</p>
             </a>
             <!-- single item end -->
-            <a href="" class="single-item">
+            <a href="{{route('admin.deferment.index')}}" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Deferments</p>
             </a>
-            <a href="" class="single-item">
+            <a href="{{route('admin.sessionChange.index')}}" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Session Change Requests</p>
             </a>
@@ -159,6 +160,7 @@
         <div class="dashboard-left-single-wrapper mt--40">
             <h4 class="title mb--5"> Resources </h4>
 
+            <a href="{{route('admin.classAttendance.index')}}" class="single-item">
             <a href="" class="single-item">
                 <i class="fa-solid fa-megaphone"></i>
                 <p>Manage Attendance Forms</p>
