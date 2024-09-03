@@ -13,34 +13,34 @@
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Deferment Info
+                                        Session change info
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <di class="course-information-area">
+                                        < class="course-information-area">
                                             <form action="#" class="top-form-create-course">
                                                 <div class="single-input">
-                                                    <label for="name">Student Id</label>
+                                                    <label for="name">student Id</label>
                                                     <input id="name" type="text" placeholder="Student Id">
                                                 </div>
-
+                                              
+                                                <div class="single-input">
+                                                    <label for="attendance-date">current session</label>
+                                                    <input type="" id="attendance-date" name="current session">
+                                                </div>
+                                                
+                                                    
+                                                    <div class="single-input">
+                                                    <label for="name">requested session</label>
+                                                    <input id="name" type="text" placeholder="requested session">
+                                                </div>
+                                                
                                                 <div class="single-input">
                                                    <label for="student-email">Reason</label>
                                                     <textarea id="student-email" placeholder="Enter reason"></textarea>
                                                 </div>
-                                                <div class="single-input">
-                                                    <label for="program">Deferment type</label>
-                                                    <select id="program">
-                                                    <option value="" disabled selected>Select a deferment type</option>
-                                                    <option value="course1">Course 1</option>
-                                                    <option value="course2">Course 2</option>
-                                                   <option value="course3">Course 3</option>
-                                                  </select>
-                                                  </div>
-                                                    
-                               
 
 
 

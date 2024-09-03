@@ -1,5 +1,5 @@
 
-<x-master headerSection='admin.layouts.header' title="Programs">
+<x-master headerSection='admin.layouts.header' title="Students">
     <div class="dashboard--area-main pt--100 pt_sm--50">
         <div class="container">
             <div class="row g-5">
@@ -14,12 +14,12 @@
                                     <img src="/assets/images/01_1.png" alt="announcement">
                                 </div>
                                 <div class="information">
-                                    <span>Add Deferment</span>
+                                    <span>Add session change</span>
                                     <p>Notify all students of your course</p>
                                 </div>
                             </div>
                             <div class="right">
-                                <a  class="rts-btn btn-primary" href="{{route('admin.program.create')}}">Add Programs</a>
+                                <a  class="rts-btn btn-primary" href="{{route('admin.student.create')}}">Add Students</a>
                             </div>
                         </div>
                         <div class="course-short-by-date-wrapper">
