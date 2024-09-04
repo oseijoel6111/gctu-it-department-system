@@ -91,7 +91,7 @@
                 <p>Class Attendance</p>
             </a>
             <!-- single item -->
-            <a href="" class="single-item">
+            <a href="{{route('admin.Timetable.index')}}" class="single-item">
                 <i class="fa-regular fa-clock"></i>
                 <p>Timetable</p>
             </a>

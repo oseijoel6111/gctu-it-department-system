@@ -9,6 +9,7 @@ use App\Http\Controllers\ProgramController;
 use App\Http\Controllers\SessionChangeController;
 use App\Http\Controllers\SessionController;
 use App\Http\Controllers\StudentController;
+use App\Http\Controllers\TimetableController;
 use App\Models\ClassAttendace;
 use App\Models\Deferment;
 use Illuminate\Routing\Route as RoutingRoute;
@@ -74,6 +75,12 @@ Route::prefix('admin')->group(function () {
       Route::controller(SessionChangeController::class)->group(function(){
         Route::get('/sessionChange', 'index')->name('admin.sessionChange.index');
         Route::get('/sessionChange/create', 'create')->name('admin.sessionChange.create');
+    });
+
+       // Timetable route controller
+       Route::controller(TimetableController::class)->group(function(){
+        Route::get('/Timetable', 'index')->name('admin.Timetable.index');
+        Route::get('/Timetable/create', 'create')->name('admin.Timetable.create');
     });
 
 });
