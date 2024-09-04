@@ -14,8 +14,8 @@
                                     <img src="/assets/images/01_1.png" alt="announcement">
                                 </div>
                                 <div class="information">
-                                    <span>Add Attendance</span>
-                                    <p>Notify all students of attendance</p>
+                                    <span>Add supervisor</span>
+                                    <p>Notify all students of your students</p>
                                 </div>
                             </div>
                             <div class="right">
@@ -32,16 +32,16 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach ($attendances as $attendance)
+                                    @foreach ($supervisors as $supervisor)
                                     <tr>
                                         <td>
                                             <div class="information-quiz">
-                                                <span>{{$attendance->created_at->format('F d, Y')}}</span>
+                                                <span>{{$supervisor->created_at->format('F d, Y')}}</span>
                                             </div>
                                         </td>
                                         <td class="announcement-1">
                                             <div class="left">
-                                                <p>{{$attendance->attendance_name}}</p>
+                                                <p>{{$supervisor->supervisor_name}}</p>
                                             </div>
                                             <div class="right">
                                                 <i class="fa-regular fa-ellipsis-vertical"></i>

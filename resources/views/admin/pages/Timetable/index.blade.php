@@ -23,7 +23,7 @@
                             </div>
                         </div>
 
-                        <!-- <div class="rts-reviewd-area-dashed table-responsive" style="white-space: nowrap;">
+                        <div class="rts-reviewd-area-dashed table-responsive" style="white-space: nowrap;">
                             <table class="table-reviews quiz announcement">
                                 <thead>
                                     <tr>
@@ -32,16 +32,16 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach ($sessions as $session)
+                                    @foreach ($timetables as $timetable)
                                     <tr>
                                         <td>
                                             <div class="information-quiz">
-                                                <span>{{$session->created_at->format('F d, Y')}}</span>
+                                                <span>{{$timetable->created_at->format('F d, Y')}}</span>
                                             </div>
                                         </td>
                                         <td class="announcement-1">
                                             <div class="left">
-                                                <p>{{$session->session_name}}</p>
+                                                <p>{{$timetable->timetable_name}}</p>
                                             </div>
                                             <div class="right">
                                                 <i class="fa-regular fa-ellipsis-vertical"></i>
@@ -53,7 +53,7 @@
                                 </tbody>
                             </table>
 
-                        </div> -->
+                        </div>
                     </div>
                 </div>
 
