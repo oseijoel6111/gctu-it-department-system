@@ -90,4 +90,10 @@ Route::prefix('admin')->group(function () {
             Route::get('/projectWork/create', 'create')->name('admin.projectWork.create');
         });
 
+        Route::get('/complaints/create', [ComplaintController::class, 'create'])->name('complaints.create');
+        Route::post('/complaints/store', [ComplaintController::class, 'store'])->name('complaints.store');
+        Route::get('/admin/complaints/manage', [ComplaintController::class, 'manage'])->name('admin.complaints.manage');
+        Route::get('/admin/complaints/resolve/{id}', [ComplaintController::class, 'resolve'])->name('admin.complaints.resolve');
+        Route::get('/admin/complaints/reject/{id}', [ComplaintController::class, 'reject'])->name('');
+
 });
