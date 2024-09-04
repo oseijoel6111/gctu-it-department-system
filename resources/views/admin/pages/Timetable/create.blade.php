@@ -24,15 +24,15 @@
                                                     @csrf
                                                 <div class="single-input">
                                                     <label for="name">course</label>
-                                                    <input id="name" name="programName" type="text" placeholder="course">
+                                                    <input id="name" name="timetable" type="text" placeholder="course">
                                                 </div>
                                                 <div class="single-input">
-                                                    <label for="name">academic year</label>
-                                                    <input id="name" name="programName" type="text" placeholder="academic_year">
+                                                    <label for="name">Academic year</label>
+                                                    <input id="name" name="timetable" type="text" placeholder="academic_year">
                                                 </div>
                                                 <div class="single-input">
                                                     <label for="name">semester</label>
-                                                    <input id="name" name="programName" type="text" placeholder="semester">
+                                                    <input id="name" name="timetable" type="text" placeholder="semester">
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="submit" class="rts-btn btn-primary">Create</button>

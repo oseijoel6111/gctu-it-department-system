@@ -23,8 +23,16 @@
                                             <form action="{{route('admin.session.store')}}" method="POST" class="top-form-create-course">
                                                 @csrf
                                                 <div class="single-input">
-                                                    <label for="name">Session Name</label>
-                                                    <input id="name" name="session" type="text" placeholder="New Course">
+                                                    <label for="name">Supervisor's Name</label>
+                                                    <input id="name" name="supervisor" type="text" placeholder="Supervisor's name">
+                                                </div>
+                                                <div class="single-input">
+                                                    <label for="name">Department</label>
+                                                    <input id="name" name="supervisor" type="text" placeholder="Department">
+                                                </div>
+                                                <div class="single-input">
+                                                    <label for="name">Email</label>
+                                                    <input id="name" name="supervisor" type="text" placeholder="Email">
                                                 </div>
 
                                                 <div class="modal-footer">

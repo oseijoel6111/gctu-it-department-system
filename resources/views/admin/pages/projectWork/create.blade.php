@@ -23,12 +23,20 @@
                                             <form action="{{route('admin.program.store')}}" method="POST" class="top-form-create-course">
                                                     @csrf
                                                 <div class="single-input">
-                                                    <label for="name">Program Name</label>
-                                                    <input id="name" name="programName" type="text" placeholder="Program Name">
+                                                    <label for="name">Student ID</label>
+                                                    <input id="name" name="programName" type="text" placeholder="Student Id">
                                                 </div>
                                                 <div class="single-input">
-                                                    <label for="message-2">About Program</label>
-                                                    <textarea name="description" id="message-2" placeholder="Program description"></textarea>
+                                                    <label for="message-2">Supervisor ID</label>
+                                                    <textarea name="description" id="message-2" placeholder="Supervisor Id"></textarea>
+                                                </div>
+                                                <div class="single-input">
+                                                    <label for="message-2">Title</label>
+                                                    <textarea name="description" id="message-2" placeholder="Title"></textarea>
+                                                </div>
+                                                <div class="single-input">
+                                                    <label for="message-2">Description</label>
+                                                    <textarea name="description" id="message-2" placeholder="Description"></textarea>
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="submit" class="rts-btn btn-primary">Create</button>
