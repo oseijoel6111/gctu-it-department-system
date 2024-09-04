@@ -6,6 +6,7 @@ use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DefermentController;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\ProgramController;
+use App\Http\Controllers\projectWorkController;
 use App\Http\Controllers\SessionChangeController;
 use App\Http\Controllers\SessionController;
 use App\Http\Controllers\StudentController;
@@ -82,5 +83,11 @@ Route::prefix('admin')->group(function () {
         Route::get('/Timetable', 'index')->name('admin.Timetable.index');
         Route::get('/Timetable/create', 'create')->name('admin.Timetable.create');
     });
+
+         // projectWork route controller
+         Route::controller(projectWorkController::class)->group(function(){
+            Route::get('/projectWork', 'index')->name('admin.projectWork.index');
+            Route::get('/projectWork/create', 'create')->name('admin.projectWork.create');
+        });
 
 });

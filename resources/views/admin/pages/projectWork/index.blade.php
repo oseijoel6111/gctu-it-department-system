@@ -19,7 +19,7 @@
                                 </div>
                             </div>
                             <div class="right">
-                                <a  class="rts-btn btn-primary" href="{{route('admin.sessionChange.create')}}">Project work info</a>
+                                <a  class="rts-btn btn-primary" href="{{route('admin.projectWork.create')}}">Project work info</a>
                             </div>
                         </div>
                         <div class="course-short-by-date-wrapper">

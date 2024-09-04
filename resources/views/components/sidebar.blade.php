@@ -49,7 +49,7 @@
                 <p>Course Registration</p>
             </a>
             <!-- single item end -->
-            <a href="" class="single-item">
+            <a href="{{route('admin.projectWork.index')}}" class="single-item">
                 <i class="fa-regular fa-pencil-square"></i>
                 <p>Project Work</p>
             </a>
@@ -121,7 +121,7 @@
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Session Change Requests</p>
             </a>
-            <a href="" class="single-item">
+            <a href="{{route('admin.projectWork.index')}}" class="single-item">
                 <i class="fa-regular fa-page"></i>
                 <p>Manage Project Work</p>
             </a>
