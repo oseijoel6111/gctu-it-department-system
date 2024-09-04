@@ -14,8 +14,8 @@
                                     <img src="/assets/images/01_1.png" alt="announcement">
                                 </div>
                                 <div class="information">
-                                    <span>Add Attendance</span>
-                                    <p>Notify all students of attendance</p>
+                                    <span>Add Sessions</span>
+                                    <p>Notify all students of your sessions</p>
                                 </div>
                             </div>
                             <div class="right">
@@ -53,7 +53,7 @@
                                 </tbody>
                             </table>
 
-                        </div>-->
+                        </div> -->
                     </div>
                 </div>
 
