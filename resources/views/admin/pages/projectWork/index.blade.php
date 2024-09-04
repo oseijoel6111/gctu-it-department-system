@@ -14,12 +14,12 @@
                                     <img src="/assets/images/01_1.png" alt="announcement">
                                 </div>
                                 <div class="information">
-                                    <span>Add supervisor's info</span>
+                                    <span>Add Project Work</span>
                                     <p>Notify all students of your course</p>
                                 </div>
                             </div>
                             <div class="right">
-                                <a  class="rts-btn btn-primary" href="{{route('admin.sessionChange.create')}}">Supervisor Info</a>
+                                <a  class="rts-btn btn-primary" href="{{route('admin.sessionChange.create')}}">Project work info</a>
                             </div>
                         </div>
                         <div class="course-short-by-date-wrapper">
