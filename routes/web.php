@@ -12,6 +12,9 @@ use App\Http\Controllers\SessionController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\TimetableController;
 use App\Models\ClassAttendace;
+use App\Models\ResultComplaint;
+use App\Controllers\PasswordChangeController;
+use App\Controllers\CheckPasswordChange;
 use App\Models\Deferment;
 use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
@@ -84,6 +87,14 @@ Route::prefix('admin')->group(function () {
         Route::get('/Timetable/create', 'create')->name('admin.Timetable.create');
     });
 
+    Route::middleware('auth')->group(function () {
+        Route::get('/attachments/request', [AttachmentController::class, 'create'])->name('attachments.request');
+        Route::post('/attachments/store', [AttachmentController::class, 'store'])->name('attachments.store');
+        Route::get('/admin/attachments/manage', [AttachmentController::class, 'manage'])->name('admin.attachments.manage');
+        Route::get('/admin/attachments/approve/{id}', [AttachmentController::class, 'approve'])->name('admin.attachments.approve');
+        Route::get('/admin/attachments/reject/{id}', [AttachmentController::class, 'reject'])->name('admin.attachments.reject');
+    });
+
          // projectWork route controller
          Route::controller(projectWorkController::class)->group(function(){
             Route::get('/projectWork', 'index')->name('admin.projectWork.index');
@@ -95,5 +106,14 @@ Route::prefix('admin')->group(function () {
         Route::get('/admin/complaints/manage', [ComplaintController::class, 'manage'])->name('admin.complaints.manage');
         Route::get('/admin/complaints/resolve/{id}', [ComplaintController::class, 'resolve'])->name('admin.complaints.resolve');
         Route::get('/admin/complaints/reject/{id}', [ComplaintController::class, 'reject'])->name('');
+        
+        //PasswordChangeController.php
 
+
+        Route::middleware(['auth', 'password.change'])->group(function () {
+            Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+        });
+
+        Route::get('password/change', [PasswordChangeController::class, 'edit'])->name('password.change');
+        Route::post('password/change', [PasswordChangeController::class, 'update'])->name('password.update');
 });
