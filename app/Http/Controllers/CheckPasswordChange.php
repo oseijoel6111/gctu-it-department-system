@@ -1,5 +1,6 @@
 <?php
 
+
 // app/Http/Middleware/CheckPasswordChange.php
 
 namespace App\Http\Middleware;
