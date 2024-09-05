@@ -116,4 +116,15 @@ Route::prefix('admin')->group(function () {
 
         Route::get('password/change', [PasswordChangeController::class, 'edit'])->name('password.change');
         Route::post('password/change', [PasswordChangeController::class, 'update'])->name('password.update');
+
+        // LoginController
+
+        // routes/web.php
+        Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
+        Route::post('/login', [AuthController::class, 'login']);
+        Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+
+
 });
+
